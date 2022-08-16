@@ -180,6 +180,7 @@
     <Compile Include="Fournisseur.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
+    <Compile Include="IData.cs" />
     <Compile Include="Impot.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>

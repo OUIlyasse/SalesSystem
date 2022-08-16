@@ -9,7 +9,7 @@
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Destruction" Width="1.5" PointX="3" PointY="30.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Destruction_Produit" Width="1.5" PointX="5.25" PointY="37.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Entree" Width="1.5" PointX="6" PointY="2.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Bon_Entree_Produit" Width="1.5" PointX="8.25" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Bon_Entree_Produit" Width="1.5" PointX="8.625" PointY="37.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Sortie" Width="1.5" PointX="3" PointY="23.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Sortie_Produit" Width="1.5" PointX="5.25" PointY="32.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Type" Width="1.5" PointX="0.75" PointY="17.625" IsExpanded="true" />
