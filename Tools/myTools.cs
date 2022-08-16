@@ -1,4 +1,6 @@
-﻿using DevExpress.XtraEditors;
+﻿using DevExpress.XtraBars.Ribbon;
+using DevExpress.XtraEditors;
+using DevExpress.XtraTabbedMdi;
 using System.Windows.Forms;
 
 namespace Tools
@@ -45,6 +47,38 @@ namespace Tools
         public static void ILmsgBox(string msg, string title, MessageBoxButtons button, MessageBoxIcon icon)
         {
             XtraMessageBox.Show(msg, title, button, icon);
+        }
+
+        private static bool isFormActived(RibbonForm frmMain, XtraForm formChild, XtraTabbedMdiManager mdiManager)
+        {
+            bool IsOpenend = false;
+            if (frmMain.MdiChildren.Length > 0)
+            {
+                foreach (var item in frmMain.MdiChildren)
+                {
+                    if (formChild.Name == item.Name)
+                    {
+                        mdiManager.Pages[item].MdiChild.Activate();
+                        IsOpenend = true;
+                    }
+                }
+            }
+            return IsOpenend;
+        }
+
+        /// <summary>
+        /// Open form into XtraTabbedMdiManager
+        /// </summary>
+        /// <param name="frmMain">Main Form</param>
+        /// <param name="formChild">Form Child</param>
+        /// <param name="mdiManager">XtraTabbedMdiManager</param>
+        public static void OpenForm(RibbonForm frmMain, XtraForm formChild, XtraTabbedMdiManager mdiManager)
+        {
+            if (!isFormActived(frmMain, formChild, mdiManager))
+            {
+                formChild.MdiParent = frmMain;
+                formChild.Show();
+            }
         }
     }
 }
