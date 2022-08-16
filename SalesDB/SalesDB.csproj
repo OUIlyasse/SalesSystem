@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F4C25AB-778D-4CF4-A98B-046BBD320511}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SalesDB</RootNamespace>
+    <AssemblyName>SalesDB</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Banque.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bon_Destruction.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bon_Destruction_Produit.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bon_Entree.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bon_Entree_Produit.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bon_Sortie.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bon_Sortie_Produit.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Bon_Type.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Branche.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Charge.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Charge_Type.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Client.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Compte_Bancaire.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Compte_Charge.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Compte_Client.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Compte_Employee.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Compte_Espece.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Compte_Fournisseur.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Compte_Local.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Compte_Local_Type.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBSales.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBSales.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBSales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBSales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBSales.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Devise.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Devise_Banque.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_Salaire.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entreprise_Info.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Achat.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Achat_Bonus.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Achat_Produit.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Achat_Produit_Retour.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Achat_Retour.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Paiement_Type.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Type.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Vente.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Vente_Bonus.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Vente_Produit.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Vente_Produit_Retour.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facture_Vente_Retour.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Fournisseur.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Impot.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Magasin.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Magasin_Branche.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Caisse.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Bon_Entree_Magasin.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Bon_Sortie_Magasin.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Caisse.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Facture_Achat.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Facture_Achat_Retour.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Facture_Vente.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Facture_Vente_Retour.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Impot.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Recu_Achat.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operation_Recu_Vente.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit_Barcode.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit_Boxe.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit_Categorie.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit_Detail.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit_Emplacement.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit_Image.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit_Section.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Produit_Type.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recu_Achat.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Recu_Type.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Recu_Vente.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Traitement.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Unite_Mesure.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Unite_Type.cs">
+      <DependentUpon>DBSales.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tools\Tools.csproj">
+      <Project>{ba436fd5-1aa3-48f3-8caf-9645ecfc04ab}</Project>
+      <Name>Tools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="DBSales.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DBSales.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="DBSales.edmx.diagram">
+      <DependentUpon>DBSales.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBSales.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DBSales.edmx</DependentUpon>
+      <LastGenOutput>DBSales.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DBSales.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DBSales.edmx</DependentUpon>
+      <LastGenOutput>DBSales.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
