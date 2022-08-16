@@ -111,6 +111,7 @@
     <Compile Include="Compte_Local_Type.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
+    <Compile Include="CRUD.cs" />
     <Compile Include="DBSales.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

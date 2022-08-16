@@ -4,18 +4,18 @@ using System.Linq.Expressions;
 
 namespace SalesDB
 {
-    internal interface IData<T>
+    internal interface IData<TEntity>
     {
-        bool Add(T entity);
+        bool Add(TEntity entity);
 
-        bool Update(T entity);
+        bool Update(TEntity entity);
 
-        bool Delete(T entity);
+        bool Delete(TEntity entity);
 
-        IEnumerable<T> GetMaxID();
+        IEnumerable<TEntity> GetMaxID(Expression<Func<TEntity, bool>> p);
 
-        IEnumerable<T> GetAllData();
+        IEnumerable<TEntity> GetAllData();
 
-        IEnumerable<T> GetDataBy(Expression<Func<T, bool>> p);
+        IEnumerable<TEntity> GetDataBy(Expression<Func<TEntity, bool>> p);
     }
 }
