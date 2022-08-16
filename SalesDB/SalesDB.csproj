@@ -51,226 +51,226 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Banque.cs">
+    <Compile Include="DB\Banque.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Bon_Destruction.cs">
+    <Compile Include="DB\Bon_Destruction.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Bon_Destruction_Produit.cs">
+    <Compile Include="DB\Bon_Destruction_Produit.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Bon_Entree.cs">
+    <Compile Include="DB\Bon_Entree.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Bon_Entree_Produit.cs">
+    <Compile Include="DB\Bon_Entree_Produit.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Bon_Sortie.cs">
+    <Compile Include="DB\Bon_Sortie.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Bon_Sortie_Produit.cs">
+    <Compile Include="DB\Bon_Sortie_Produit.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Bon_Type.cs">
+    <Compile Include="DB\Bon_Type.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Branche.cs">
+    <Compile Include="DB\Branche.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Charge.cs">
+    <Compile Include="DB\Charge.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Charge_Type.cs">
+    <Compile Include="DB\Charge_Type.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Client.cs">
+    <Compile Include="DB\Client.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Compte_Bancaire.cs">
+    <Compile Include="DB\Compte_Bancaire.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Compte_Charge.cs">
+    <Compile Include="DB\Compte_Charge.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Compte_Client.cs">
+    <Compile Include="DB\Compte_Client.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Compte_Employee.cs">
+    <Compile Include="DB\Compte_Employee.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Compte_Espece.cs">
+    <Compile Include="DB\Compte_Espece.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Compte_Fournisseur.cs">
+    <Compile Include="DB\Compte_Fournisseur.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Compte_Local.cs">
+    <Compile Include="DB\Compte_Local.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Compte_Local_Type.cs">
+    <Compile Include="DB\Compte_Local_Type.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="CRUD.cs" />
-    <Compile Include="DBSales.Context.cs">
+    <Compile Include="Proc_DB\CRUD.cs" />
+    <Compile Include="DB\DBSales.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DBSales.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DBSales.cs">
+    <Compile Include="DB\DBSales.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="DBSales.Designer.cs">
+    <Compile Include="DB\DBSales.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DBSales.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Devise.cs">
+    <Compile Include="DB\Devise.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Devise_Banque.cs">
+    <Compile Include="DB\Devise_Banque.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Employee.cs">
+    <Compile Include="DB\Employee.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Employee_Salaire.cs">
+    <Compile Include="DB\Employee_Salaire.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entreprise_Info.cs">
+    <Compile Include="DB\Entreprise_Info.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Achat.cs">
+    <Compile Include="DB\Facture_Achat.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Achat_Bonus.cs">
+    <Compile Include="DB\Facture_Achat_Bonus.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Achat_Produit.cs">
+    <Compile Include="DB\Facture_Achat_Produit.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Achat_Produit_Retour.cs">
+    <Compile Include="DB\Facture_Achat_Produit_Retour.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Achat_Retour.cs">
+    <Compile Include="DB\Facture_Achat_Retour.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Paiement_Type.cs">
+    <Compile Include="DB\Facture_Paiement_Type.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Type.cs">
+    <Compile Include="DB\Facture_Type.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Vente.cs">
+    <Compile Include="DB\Facture_Vente.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Vente_Bonus.cs">
+    <Compile Include="DB\Facture_Vente_Bonus.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Vente_Produit.cs">
+    <Compile Include="DB\Facture_Vente_Produit.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Vente_Produit_Retour.cs">
+    <Compile Include="DB\Facture_Vente_Produit_Retour.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Facture_Vente_Retour.cs">
+    <Compile Include="DB\Facture_Vente_Retour.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Fournisseur.cs">
+    <Compile Include="DB\Fournisseur.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="IData.cs" />
-    <Compile Include="Impot.cs">
+    <Compile Include="Proc_DB\IData.cs" />
+    <Compile Include="DB\Impot.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Magasin.cs">
+    <Compile Include="DB\Magasin.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Magasin_Branche.cs">
+    <Compile Include="DB\Magasin_Branche.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Main_Caisse.cs">
+    <Compile Include="DB\Main_Caisse.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Bon_Entree_Magasin.cs">
+    <Compile Include="DB\Operation_Bon_Entree_Magasin.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Bon_Sortie_Magasin.cs">
+    <Compile Include="DB\Operation_Bon_Sortie_Magasin.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Caisse.cs">
+    <Compile Include="DB\Operation_Caisse.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Facture_Achat.cs">
+    <Compile Include="DB\Operation_Facture_Achat.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Facture_Achat_Retour.cs">
+    <Compile Include="DB\Operation_Facture_Achat_Retour.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Facture_Vente.cs">
+    <Compile Include="DB\Operation_Facture_Vente.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Facture_Vente_Retour.cs">
+    <Compile Include="DB\Operation_Facture_Vente_Retour.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Impot.cs">
+    <Compile Include="DB\Operation_Impot.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Recu_Achat.cs">
+    <Compile Include="DB\Operation_Recu_Achat.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Operation_Recu_Vente.cs">
+    <Compile Include="DB\Operation_Recu_Vente.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produit.cs">
+    <Compile Include="DB\Produit.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produit_Barcode.cs">
+    <Compile Include="DB\Produit_Barcode.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produit_Boxe.cs">
+    <Compile Include="DB\Produit_Boxe.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produit_Categorie.cs">
+    <Compile Include="DB\Produit_Categorie.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produit_Detail.cs">
+    <Compile Include="DB\Produit_Detail.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produit_Emplacement.cs">
+    <Compile Include="DB\Produit_Emplacement.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produit_Image.cs">
+    <Compile Include="DB\Produit_Image.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produit_Section.cs">
+    <Compile Include="DB\Produit_Section.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produit_Type.cs">
+    <Compile Include="DB\Produit_Type.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Recu_Achat.cs">
+    <Compile Include="DB\Recu_Achat.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Recu_Type.cs">
+    <Compile Include="DB\Recu_Type.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Recu_Vente.cs">
+    <Compile Include="DB\Recu_Vente.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="sysdiagram.cs">
+    <Compile Include="DB\sysdiagram.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Traitement.cs">
+    <Compile Include="DB\Traitement.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Unite_Mesure.cs">
+    <Compile Include="DB\Unite_Mesure.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
-    <Compile Include="Unite_Type.cs">
+    <Compile Include="DB\Unite_Type.cs">
       <DependentUpon>DBSales.tt</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -281,25 +281,25 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="DBSales.edmx">
+    <EntityDeploy Include="DB\DBSales.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>DBSales.Designer.cs</LastGenOutput>
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <None Include="DBSales.edmx.diagram">
+    <None Include="DB\DBSales.edmx.diagram">
       <DependentUpon>DBSales.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DBSales.Context.tt">
+    <Content Include="DB\DBSales.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DBSales.edmx</DependentUpon>
       <LastGenOutput>DBSales.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="DBSales.tt">
+    <Content Include="DB\DBSales.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DBSales.edmx</DependentUpon>
       <LastGenOutput>DBSales.cs</LastGenOutput>
