@@ -40,11 +40,11 @@
             this.barStaticItem2 = new DevExpress.XtraBars.BarStaticItem();
             this.barStaticItem3 = new DevExpress.XtraBars.BarStaticItem();
             this.barStaticItem4 = new DevExpress.XtraBars.BarStaticItem();
+            this.btnNewForm = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.mdiManager = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            this.btnNewForm = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).BeginInit();
@@ -144,6 +144,13 @@
             this.barStaticItem4.Id = 7;
             this.barStaticItem4.Name = "barStaticItem4";
             // 
+            // btnNewForm
+            // 
+            resources.ApplyResources(this.btnNewForm, "btnNewForm");
+            this.btnNewForm.Id = 8;
+            this.btnNewForm.Name = "btnNewForm";
+            this.btnNewForm.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnNewForm_ItemClick);
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Appearance.Options.UseFont = true;
@@ -169,20 +176,13 @@
             // 
             // mdiManager
             // 
-            this.mdiManager.AppearancePage.HeaderActive.BackColor = ((System.Drawing.Color)(resources.GetObject("xtraTabbedMdiManager1.AppearancePage.HeaderActive.BackColor")));
-            this.mdiManager.AppearancePage.HeaderActive.Font = ((System.Drawing.Font)(resources.GetObject("xtraTabbedMdiManager1.AppearancePage.HeaderActive.Font")));
+            this.mdiManager.AppearancePage.HeaderActive.BackColor = ((System.Drawing.Color)(resources.GetObject("mdiManager.AppearancePage.HeaderActive.BackColor")));
+            this.mdiManager.AppearancePage.HeaderActive.Font = ((System.Drawing.Font)(resources.GetObject("mdiManager.AppearancePage.HeaderActive.Font")));
             this.mdiManager.AppearancePage.HeaderActive.Options.UseBackColor = true;
             this.mdiManager.AppearancePage.HeaderActive.Options.UseFont = true;
             this.mdiManager.ClosePageButtonShowMode = DevExpress.XtraTab.ClosePageButtonShowMode.InActiveTabPageHeader;
             this.mdiManager.MdiParent = this;
             this.mdiManager.PinPageButtonShowMode = DevExpress.XtraTab.PinPageButtonShowMode.InAllTabPageHeaders;
-            // 
-            // btnNewForm
-            // 
-            resources.ApplyResources(this.btnNewForm, "btnNewForm");
-            this.btnNewForm.Id = 8;
-            this.btnNewForm.Name = "btnNewForm";
-            this.btnNewForm.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnNewForm_ItemClick);
             // 
             // frmMain
             // 
