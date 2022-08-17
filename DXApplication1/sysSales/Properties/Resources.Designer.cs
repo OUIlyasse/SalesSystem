@@ -61,12 +61,72 @@ namespace sysSales.Properties {
         }
         
         /// <summary>
-        ///   Recherche une ressource localisée de type DevExpress.Utils.Svg.SvgImage.
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static DevExpress.Utils.Svg.SvgImage user_Add {
+        internal static System.Drawing.Bitmap database_connect_32 {
             get {
-                object obj = ResourceManager.GetObject("user_Add", resourceCulture);
-                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+                object obj = ResourceManager.GetObject("database-connect-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Drive_Backup_32 {
+            get {
+                object obj = ResourceManager.GetObject("Drive_Backup_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Employee_32 {
+            get {
+                object obj = ResourceManager.GetObject("Employee_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap invoice_32 {
+            get {
+                object obj = ResourceManager.GetObject("invoice_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Notepad_32 {
+            get {
+                object obj = ResourceManager.GetObject("Notepad-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap software_32 {
+            get {
+                object obj = ResourceManager.GetObject("software_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap User_Permissions_32 {
+            get {
+                object obj = ResourceManager.GetObject("User_Permissions_32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

@@ -1,6 +1,7 @@
 ﻿using DevExpress.XtraBars.Ribbon;
 using DevExpress.XtraEditors;
 using DevExpress.XtraTabbedMdi;
+using System;
 using System.Windows.Forms;
 
 namespace Tools
@@ -79,6 +80,11 @@ namespace Tools
                 formChild.MdiParent = frmMain;
                 formChild.Show();
             }
+        }
+
+        public static DateTime GetDateTime()
+        {
+            return DateTime.Now;
         }
     }
 }

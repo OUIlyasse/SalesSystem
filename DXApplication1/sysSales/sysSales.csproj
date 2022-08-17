@@ -34,6 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Accessibility" />
     <Reference Include="DevExpress.BonusSkins.v18.1" />
     <Reference Include="DevExpress.Data.v18.1" />
     <Reference Include="DevExpress.Printing.v18.1.Core" />
@@ -46,7 +47,14 @@
     <Reference Include="DevExpress.XtraNavBar.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -77,6 +85,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sub\frmInfoCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub\frmInfoCompany.Designer.cs">
+      <DependentUpon>frmInfoCompany.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="IForms\Ifrm.resx">
       <DependentUpon>Ifrm.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,19 +103,22 @@
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
+    <EmbeddedResource Include="Sub\frmInfoCompany.resx">
+      <DependentUpon>frmInfoCompany.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -118,11 +135,27 @@
       <Name>Tools</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Sub\" />
+    <None Include="Resources\software_32.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\user_Add.svg" />
+    <None Include="Resources\User_Permissions_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drive_Backup_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database-connect-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notepad-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice_32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

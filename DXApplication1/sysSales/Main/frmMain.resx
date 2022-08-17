@@ -146,19 +146,370 @@
   <data name="repositoryItemDateEdit2.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
     <value>Combo</value>
   </data>
-  <data name="barStaticItem2.Caption" xml:space="preserve">
+  <data name="txtDate.Caption" xml:space="preserve">
     <value>date</value>
   </data>
-  <data name="barStaticItem3.Caption" xml:space="preserve">
+  <data name="txtTime.Caption" xml:space="preserve">
     <value>time</value>
   </data>
-  <data name="barStaticItem4.Caption" xml:space="preserve">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtTime.ItemAppearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Digital-7, 16.2pt, style=Bold</value>
+  </data>
+  <data name="txtTime.ItemAppearance.Normal.ForeColor" type="System.Drawing.Color, System.Drawing">
+    <value>255, 242, 157</value>
+  </data>
+  <data name="txtStatus.Caption" xml:space="preserve">
     <value>msg</value>
   </data>
   <data name="btnNewForm.Caption" xml:space="preserve">
     <value>new Form</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="repositoryItemDateEdit3.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="repositoryItemDateEdit3.CalendarTimeProperties.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v18.1">
+    <value>Combo</value>
+  </data>
+  <data name="repositoryItemDateEdit3.Mask.EditMask" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="dtDate.EditWidth" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="barButtonItem1.Caption" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="barButtonItem1.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="barButtonItem2.Caption" xml:space="preserve">
+    <value>User Permissions</value>
+  </data>
+  <data name="barButtonItem3.Caption" xml:space="preserve">
+    <value>barButtonItem3</value>
+  </data>
+  <data name="barButtonItem4.Caption" xml:space="preserve">
+    <value>barButtonItem4</value>
+  </data>
+  <data name="barButtonItem5.Caption" xml:space="preserve">
+    <value>barButtonItem5</value>
+  </data>
+  <data name="btnSSoftware.Caption" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="btnSSoftware.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnSSoftware.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxOC4xLCBWZXJzaW9uPTE4LjEu
+        NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBQAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wBAAABAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAABCCVEZXZFeHByZXNz
+        LlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAABxEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBJdGVt
+        AgAAAAIAAAAF/P///x9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAQAAAAd2YWx1ZV9fAAgD
+        AAAAAgAAAAABAAAABfv///8lRGV2RXhwcmVzcy5VdGlscy5TdXBlclRvb2xUaXBJdGVtVHlwZQEAAAAH
+        dmFsdWVfXwAIAgAAAAAAAAAJBgAAAAwHAAAAUVN5c3RlbS5EcmF3aW5nLCBWZXJzaW9uPTQuMC4wLjAs
+        IEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYQUGAAAAHERldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0HAAAADUFsbG93SHRtbFRleHQESWNvbgxJbWFnZU9wdGlvbnMK
+        TGVmdEluZGVudAhNYXhXaWR0aBJPd25lckFsbG93SHRtbFRleHQEVGV4dAQEBAAAAAEfRGV2RXhwcmVz
+        cy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgcAAAAoRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSXRlbUltYWdlT3B0aW9ucwIAAAAICAECAAAAAfj////8////AgAAAAoJCQAA
+        AAAAAACLAQAAAAYKAAAAEFNldHRpbmcgU29mdHdhcmUFCQAAAChEZXZFeHByZXNzLlV0aWxzLlRvb2xU
+        aXBJdGVtSW1hZ2VPcHRpb25zBQAAAAhJbWFnZVVyaQxTdmdJbWFnZVNpemUJQWxpZ25tZW50CkltYWdl
+        SW5kZXgTSW1hZ2VUb1RleHREaXN0YW5jZQEEBAAAE1N5c3RlbS5EcmF3aW5nLlNpemUHAAAAJkRldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgIAgAAAAYLAAAAAAX0////E1N5c3Rl
+        bS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgHAAAAAAAAAAAAAAAF8////yZEZXZFeHBy
+        ZXNzLlV0aWxzLlRvb2xUaXBJbWFnZUFsaWdubWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAD/////DgAA
+        AAs=
+</value>
+  </data>
+  <data name="btnUsersPermission.Caption" xml:space="preserve">
+    <value>Users Permissions</value>
+  </data>
+  <data name="btnUsersPermission.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAC2xJREFUWEet
+        VwtUU1cWvUmIfJKX5CUgCsPHD8hHkAiifPyhKGoVdXSw2qptddo6Iw62FQFFQGkRRUREaQX8YgUE5eMP
+        qbZq/WtVRJE6Uq06KkhCIJD3knfOvAB2daZdM7N09lpn3buy7j17v33OfTeP/Dcc9ZeLvxtNW16a3Ed0
+        ZbozOT/NRfjdFGfxiRA7yyo/ubhn2f8Xl0cqSE2gghwLUAhKfKWkZqScYIo3wfJwgiUTSf0SH3IzwpEc
+        8VOQo0OkwqP+tMC8r0ot79r/Rihw7kVqxynNAgSVAQpycphs8OkQRdqZMLvqi1Mcr1ya4Xru3BTnouog
+        2+jywTL36+NtSbEnZd4qOuIvJ4mWhKQrhF25Xgv7+lmRb3hyswMnh9PvHw9Q6M6MpvHyJHs8FmKHJWoa
+        S/1pLPdXIF+e1upAOqc6UOl40p8mVUPlxJfPsUEl6k72OjiilgtOmskD6YCDXlL2KydLbrujJbPFXmyM
+        ExJjAh/pcoExz8WKLfWTcUdGKLE8QPFTwSDJvC89pOJsD+mbCdg9wErwlYOIlA2W7Cj0lGLZUJrZrBLC
+        aiGBbHsx7PdSQMEAOWT3toZMpdiU3duCKfZWYLadBSaJBcM/txaQNIq8QQ14xAuIxbEAeX1NiBKO+8tN
+        e+0JHPWVwotP/KAjPQI6Ns2Gtsz5oNmwgHu5fgHXkfkeU+FF4xpCxqTy+/Pkgte3oMqPIkm9SK+jQ+X3
+        +a7GSj/KVDrQEuujXLiWxJGoyXwb2w/Eo/5oFtdZk4cdNQXG9pI0vLsorLphQaCs9p0RgoKuM/GaqFLL
+        BEf4ZuKjgp8D39nsYW8J3J/vBi3x40CXtQj15elguFQGzN2z0Fl3lm0/sRN0ebGp+py/kvbtfxPlv0kB
+        qobKhEVuYlLqZb34fLgTPvtbCHNmnCNcDHeA1uTJ0JYfAx3VucjcPAns43vAPGtk9RcqULszMbe1KI1o
+        dycL8yx6kr0Ojg9TCnb0JiSHJi51s72bdHFhxp+jh5rq57pzmrVToX3PCjCcygP2Fi+g8QYaGq6w+lP7
+        sXXnmpzW/HjSWrBaJFH1E1rTTkJpbzehzMlXJHf1F9HuI0VK7wkilXqayDZihcgpYMbv+1TmZUNaV4wX
+        tMdOJI8Xj9jSFDMSnyz1YZ7HBkBLWiSn3xUDncezOMOFYmBunIDOi4dY3f5UaNm4eIMuYzFpzVj8m8Tm
+        H8yifi+6V/wKh7wl5PnSkYLHHweRxo+C+7+IHnn7WbQ/92S5H/fy8wiuLXcRdJQkQueJbOj8Jg/0VZtZ
+        7bZl+Dxx1qo7K2aS+vgo655Ur4cKX4q8iB5FTs/xFFybpya1C4a431rgc78pIQCeJ4UatRl/xPYdH0JH
+        4QpOvz+Ba8tfbtSuizKx0cNnfxbkRpQuauztNVZrHv9T2LoFG+e423W9w3+DluVjyYGoQYLCd51EJfN9
+        nA/NdP+5cZk/Nq8Zbnq2OgQ0GyNBtzkKWjPncdrUmdyLmFGG8KBxF72GjFpiTj7zgLYrJn3VaAzPfWgK
+        y31kHJ3zkA3NesAEbWk0+G96YDSv4wX81i28pSSIk8mxD0J7HXp3OqlaOCz09EeBcG6+j/FpbBC8iA+A
+        pyv9ueeJI+Fp4ngwxHhyR2LeYVVLKnCAekLBKwGzdj3ipm2rNU7bfgembr/DTc65C+FZtdyYzFoueMPN
+        Lhd4OqtuVh7GJxRhHlEEf1QKTS0TSGOmF9kzvXrgmWWO319fOYm7+2mo6cJ8H3j0STA0xwXBP5arQfNx
+        P6hfPBhmZV5ifNZe47z8J6a9EuC+/hG6J980ea+tRfW6H7igtOs4dnMdF5Fzl5u4te6VAP7u5KHdKCVc
+        J0XYJkqI95T8fJIAioXLOjPIk4a1Ijy/YozpWfpM+GlVGFz+8zC49WEgNkSPwMqV78PUTTfAI+FCl6X/
+        S7itu2fySb7SNeepxeSh0Jo0L5UQzkAJWS1F2rZSPh2nlNUdlXLUblDh8ywLtnatPfwQHwna7XOhecss
+        uPrJeDi3zA0ebugDNVvnQljkLBg4PwdCEo9jQNwRHLaqBvzjq0G96jQMWXUGfVNr0WfdrS5S5+QGo+On
+        378SYEFqeRdaEiUCXaGE6A5IZuurpc3MeQo7chUsu5c2afeoQFNoBTcTXeBK7BS4vz4Kb8XPwKur3NG4
+        05KDDIJN+RZcTF4FTN7ZbIrccd84cft9GLe1AUZvrofgDbUYlNUIIzY/6CJ1Ta43On16BnoECElbgVSs
+        TZeQF3MlE9tLpQx7W4aG3QojW0gDV6YEQ5ESWstsofOANTzM7I23kzzhdLQHvixQofEgjbrtdoCFFthQ
+        5AHj0mthfHYdTsq+jVNy6vi4AxH8fMKXD38R0G/9U8454YapR4CA6PZIBfoTEpofG5gfZMhU0AxPzpnK
+        VJzpkArNItqLbVF/yA7xMAVPCimc6kXhqSx7hJN22LlbgW15SjRVCnHO6mykV9aD26pL4J54HX3X3eCG
+        r78B4bmNXFCPgD7TUjT2U5Owj3tIs0DI39ot8VLycqXkY/1hCpmzvO0HaDCVqjjuMB9lKuBHNBbRoCux
+        QzjvgCfi5UiRXpixkEb8zg4M+2lsz7cFLCeQsXExyFb8CAMSLoJT3DU+rnKOsZfRec0dk3Nid+f/OngH
+        +OP3UCLkT0FxZ6WMY44qGGOxkrdeBfzTA3Q7gBw/Gg7QyF10wse5MvS2EsDXy2UA1Spk+PUdu2wRigRY
+        lD0ZVJ/VQf+EC+ASdwVdE66CS/xlcE2qA6ceAf38wpt6Kfv3p/p6E0ev0ULyMsUquDVTel1fLke2jDZx
+        JUozMXCH+KSHbZHrCWOpCqFShU/yKPATW+GaSHvEE0pgilWo32MLsE8ENTljTA7JD4wDkmo5l9W14Lr6
+        JueScM3kklzPvhLg6Bkyz2HYbImSvyVph0GENC2x+UC3iXrUWSTHzlIlx/Dk7OFuB8wi+KcHsxBeAOAx
+        O/gph8IhIjFM97ADXSkNDN8jut38mnwr0/E1nkjC9qDTov3otPQY58J3u8tnZ5EXgK8E0I7exDUoSiB3
+        HEz6uA0n5vrHtKZTzzvz5cgU0ibjQRWy5bYcU26LTLkKmMNKZHhBnXwp8Lgt3t8qhRFiIYTSNNzdouCg
+        iDa1b5N36jMo1KTY7NubbblAIrNvkKhckHLwZuXuo+vsAufeknlGdAv4g4/QwWz9K/ACErSp0hZ9jsxk
+        2KkwGb/mTwBfBlNpVy+gkXfAyDvBHuSf8ogt9/dMihtrJeSGiynTtzEUC7vknCaNQkizOr0sVPneW5Hy
+        fRbWihciaxVL0Q4Gh36+11R93Vd8e6xCPVA9rrek7xDS19m7h53Hy0TJUM0aycXWdCnqc/gy5CuMhj0K
+        hneDYfcrGfZrJcsHY9hHs1hMsw++kJoirAQYRKyx5j0b5LKopp/jJGmfRAbYWDqM2NbbbRK6+oxC237+
+        qOoXgF5Bb2GfQcFFe4sryeDgt4h1H99/FdCSak1exksHtKyRFGvXSpt06RS2bZJhe5YM9dlybN+qwPZs
+        Geo28++IrTJ8EGcD0yxJ20SB8F5OqDgOt8hcdV9ISPqcwWTBh8usZi9aMsw/bPYHzt6jYhROfovs+gcG
+        qVyHmi8dob3bcAHl4EscBg7rJjejZZ21sDleQjTrJET7tqWbJtZmjjZJGqtJkmzRpkjzNSlUviZZmsu7
+        9IUuSbr0frT1jCgpCQwixMa8H7NkfA6JcN2fhpBTl0+RyIXLSdCkBcTVN4zQzmriMmQ8cfAI7uLqO4jf
+        9e9oWWtDWlZLhZq1UgvNQiuCqRLSmkIRrXlcTxFdupxo+U8dTYqEtCVLyYNl1uQvNOn6BuRhwTvw6/91
+        gtAp74p8QqZZOHqEiJUuQ8UD1OPNHykCj8AIMkA9rnvVLyDknycSHtD+/jA7AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnUsersPermission.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxOC4xLCBWZXJzaW9uPTE4LjEu
+        NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBQAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wBAAABAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAABCCVEZXZFeHByZXNz
+        LlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAABxEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBJdGVt
+        AgAAAAIAAAAF/P///x9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAQAAAAd2YWx1ZV9fAAgD
+        AAAAAgAAAAABAAAABfv///8lRGV2RXhwcmVzcy5VdGlscy5TdXBlclRvb2xUaXBJdGVtVHlwZQEAAAAH
+        dmFsdWVfXwAIAgAAAAAAAAAJBgAAAAwHAAAAUVN5c3RlbS5EcmF3aW5nLCBWZXJzaW9uPTQuMC4wLjAs
+        IEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYQUGAAAAHERldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0HAAAADUFsbG93SHRtbFRleHQESWNvbgxJbWFnZU9wdGlvbnMK
+        TGVmdEluZGVudAhNYXhXaWR0aBJPd25lckFsbG93SHRtbFRleHQEVGV4dAQEBAAAAAEfRGV2RXhwcmVz
+        cy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgcAAAAoRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSXRlbUltYWdlT3B0aW9ucwIAAAAICAECAAAAAfj////8////AgAAAAoJCQAA
+        AAAAAACLAQAAAAYKAAAAEVVzZXJzIFBlcm1pc3Npb25zBQkAAAAoRGV2RXhwcmVzcy5VdGlscy5Ub29s
+        VGlwSXRlbUltYWdlT3B0aW9ucwUAAAAISW1hZ2VVcmkMU3ZnSW1hZ2VTaXplCUFsaWdubWVudApJbWFn
+        ZUluZGV4E0ltYWdlVG9UZXh0RGlzdGFuY2UBBAQAABNTeXN0ZW0uRHJhd2luZy5TaXplBwAAACZEZXZF
+        eHByZXNzLlV0aWxzLlRvb2xUaXBJbWFnZUFsaWdubWVudAIAAAAICAIAAAAGCwAAAAAF9P///xNTeXN0
+        ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIBwAAAAAAAAAAAAAABfP///8mRGV2RXhw
+        cmVzcy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAA/////w4A
+        AAAL
+</value>
+  </data>
+  <data name="btnEmployee.Caption" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="btnEmployee.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxOC4xLCBWZXJzaW9uPTE4LjEu
+        NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBQAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wBAAABAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAABCCVEZXZFeHByZXNz
+        LlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAABxEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBJdGVt
+        AgAAAAIAAAAF/P///x9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAQAAAAd2YWx1ZV9fAAgD
+        AAAAAgAAAAABAAAABfv///8lRGV2RXhwcmVzcy5VdGlscy5TdXBlclRvb2xUaXBJdGVtVHlwZQEAAAAH
+        dmFsdWVfXwAIAgAAAAAAAAAJBgAAAAwHAAAAUVN5c3RlbS5EcmF3aW5nLCBWZXJzaW9uPTQuMC4wLjAs
+        IEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYQUGAAAAHERldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0HAAAADUFsbG93SHRtbFRleHQESWNvbgxJbWFnZU9wdGlvbnMK
+        TGVmdEluZGVudAhNYXhXaWR0aBJPd25lckFsbG93SHRtbFRleHQEVGV4dAQEBAAAAAEfRGV2RXhwcmVz
+        cy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgcAAAAoRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSXRlbUltYWdlT3B0aW9ucwIAAAAICAECAAAAAfj////8////AgAAAAoJCQAA
+        AAAAAACLAQAAAAYKAAAACEVtcGxveWVlBQkAAAAoRGV2RXhwcmVzcy5VdGlscy5Ub29sVGlwSXRlbUlt
+        YWdlT3B0aW9ucwUAAAAISW1hZ2VVcmkMU3ZnSW1hZ2VTaXplCUFsaWdubWVudApJbWFnZUluZGV4E0lt
+        YWdlVG9UZXh0RGlzdGFuY2UBBAQAABNTeXN0ZW0uRHJhd2luZy5TaXplBwAAACZEZXZFeHByZXNzLlV0
+        aWxzLlRvb2xUaXBJbWFnZUFsaWdubWVudAIAAAAICAIAAAAGCwAAAAAF9P///xNTeXN0ZW0uRHJhd2lu
+        Zy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIBwAAAAAAAAAAAAAABfP///8mRGV2RXhwcmVzcy5VdGls
+        cy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAA/////w4AAAAL
+</value>
+  </data>
+  <data name="barButtonItem9.Caption" xml:space="preserve">
+    <value>barButtonItem9</value>
+  </data>
+  <data name="btnBackup.Caption" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="btnBackup.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxOC4xLCBWZXJzaW9uPTE4LjEu
+        NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBQAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wBAAABAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAABCCVEZXZFeHByZXNz
+        LlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAABxEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBJdGVt
+        AgAAAAIAAAAF/P///x9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAQAAAAd2YWx1ZV9fAAgD
+        AAAAAgAAAAABAAAABfv///8lRGV2RXhwcmVzcy5VdGlscy5TdXBlclRvb2xUaXBJdGVtVHlwZQEAAAAH
+        dmFsdWVfXwAIAgAAAAAAAAAJBgAAAAwHAAAAUVN5c3RlbS5EcmF3aW5nLCBWZXJzaW9uPTQuMC4wLjAs
+        IEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYQUGAAAAHERldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0HAAAADUFsbG93SHRtbFRleHQESWNvbgxJbWFnZU9wdGlvbnMK
+        TGVmdEluZGVudAhNYXhXaWR0aBJPd25lckFsbG93SHRtbFRleHQEVGV4dAQEBAAAAAEfRGV2RXhwcmVz
+        cy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgcAAAAoRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSXRlbUltYWdlT3B0aW9ucwIAAAAICAECAAAAAfj////8////AgAAAAoJCQAA
+        AAAAAACLAQAAAAYKAAAAD0JhY2t1cCBEYXRhYmFzZQUJAAAAKERldkV4cHJlc3MuVXRpbHMuVG9vbFRp
+        cEl0ZW1JbWFnZU9wdGlvbnMFAAAACEltYWdlVXJpDFN2Z0ltYWdlU2l6ZQlBbGlnbm1lbnQKSW1hZ2VJ
+        bmRleBNJbWFnZVRvVGV4dERpc3RhbmNlAQQEAAATU3lzdGVtLkRyYXdpbmcuU2l6ZQcAAAAmRGV2RXhw
+        cmVzcy5VdGlscy5Ub29sVGlwSW1hZ2VBbGlnbm1lbnQCAAAACAgCAAAABgsAAAAABfT///8TU3lzdGVt
+        LkRyYXdpbmcuU2l6ZQIAAAAFd2lkdGgGaGVpZ2h0AAAICAcAAAAAAAAAAAAAAAXz////JkRldkV4cHJl
+        c3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAAAAAAP////8OAAAA
+        Cw==
+</value>
+  </data>
+  <data name="btnConnectDB.Caption" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="btnConnectDB.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxOC4xLCBWZXJzaW9uPTE4LjEu
+        NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBQAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wBAAABAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAABCCVEZXZFeHByZXNz
+        LlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAABxEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBJdGVt
+        AgAAAAIAAAAF/P///x9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAQAAAAd2YWx1ZV9fAAgD
+        AAAAAgAAAAABAAAABfv///8lRGV2RXhwcmVzcy5VdGlscy5TdXBlclRvb2xUaXBJdGVtVHlwZQEAAAAH
+        dmFsdWVfXwAIAgAAAAAAAAAJBgAAAAwHAAAAUVN5c3RlbS5EcmF3aW5nLCBWZXJzaW9uPTQuMC4wLjAs
+        IEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYQUGAAAAHERldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0HAAAADUFsbG93SHRtbFRleHQESWNvbgxJbWFnZU9wdGlvbnMK
+        TGVmdEluZGVudAhNYXhXaWR0aBJPd25lckFsbG93SHRtbFRleHQEVGV4dAQEBAAAAAEfRGV2RXhwcmVz
+        cy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgcAAAAoRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSXRlbUltYWdlT3B0aW9ucwIAAAAICAECAAAAAfj////8////AgAAAAoJCQAA
+        AAAAAACLAQAAAAYKAAAAE0Nvbm5lY3QgdG8gZGF0YWJhc2UFCQAAAChEZXZFeHByZXNzLlV0aWxzLlRv
+        b2xUaXBJdGVtSW1hZ2VPcHRpb25zBQAAAAhJbWFnZVVyaQxTdmdJbWFnZVNpemUJQWxpZ25tZW50Cklt
+        YWdlSW5kZXgTSW1hZ2VUb1RleHREaXN0YW5jZQEEBAAAE1N5c3RlbS5EcmF3aW5nLlNpemUHAAAAJkRl
+        dkV4cHJlc3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgIAgAAAAYLAAAAAAX0////E1N5
+        c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgHAAAAAAAAAAAAAAAF8////yZEZXZF
+        eHByZXNzLlV0aWxzLlRvb2xUaXBJbWFnZUFsaWdubWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAD/////
+        DgAAAAs=
+</value>
+  </data>
+  <data name="barButtonItem6.Caption" xml:space="preserve">
+    <value>Notepad</value>
+  </data>
+  <data name="btnEditInvoices.Caption" xml:space="preserve">
+    <value>Edit invoices</value>
+  </data>
+  <data name="btnEditInvoices.SuperTip" type="DevExpress.Utils.SuperToolTip, DevExpress.Utils.v18.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxOC4xLCBWZXJzaW9uPTE4LjEu
+        NC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEMAwAAAFlE
+        ZXZFeHByZXNzLkRhdGEudjE4LjEsIFZlcnNpb249MTguMS40LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVi
+        bGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURldkV4cHJlc3MuVXRpbHMuU3VwZXJUb29s
+        VGlwBQAAAA1BbGxvd0h0bWxUZXh0EUZpeGVkVG9vbFRpcFdpZHRoCkl0ZW1zQ291bnQJaXRlbVR5cGUw
+        BWl0ZW0wBAAABAQfRGV2RXhwcmVzcy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAABCCVEZXZFeHByZXNz
+        LlV0aWxzLlN1cGVyVG9vbFRpcEl0ZW1UeXBlAgAAABxEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBJdGVt
+        AgAAAAIAAAAF/P///x9EZXZFeHByZXNzLlV0aWxzLkRlZmF1bHRCb29sZWFuAQAAAAd2YWx1ZV9fAAgD
+        AAAAAgAAAAABAAAABfv///8lRGV2RXhwcmVzcy5VdGlscy5TdXBlclRvb2xUaXBJdGVtVHlwZQEAAAAH
+        dmFsdWVfXwAIAgAAAAAAAAAJBgAAAAwHAAAAUVN5c3RlbS5EcmF3aW5nLCBWZXJzaW9uPTQuMC4wLjAs
+        IEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYQUGAAAAHERldkV4
+        cHJlc3MuVXRpbHMuVG9vbFRpcEl0ZW0HAAAADUFsbG93SHRtbFRleHQESWNvbgxJbWFnZU9wdGlvbnMK
+        TGVmdEluZGVudAhNYXhXaWR0aBJPd25lckFsbG93SHRtbFRleHQEVGV4dAQEBAAAAAEfRGV2RXhwcmVz
+        cy5VdGlscy5EZWZhdWx0Qm9vbGVhbgMAAAATU3lzdGVtLkRyYXdpbmcuSWNvbgcAAAAoRGV2RXhwcmVz
+        cy5VdGlscy5Ub29sVGlwSXRlbUltYWdlT3B0aW9ucwIAAAAICAECAAAAAfj////8////AgAAAAoJCQAA
+        AAAAAACLAQAAAAYKAAAADUVkaXQgaW52b2ljZXMFCQAAAChEZXZFeHByZXNzLlV0aWxzLlRvb2xUaXBJ
+        dGVtSW1hZ2VPcHRpb25zBQAAAAhJbWFnZVVyaQxTdmdJbWFnZVNpemUJQWxpZ25tZW50CkltYWdlSW5k
+        ZXgTSW1hZ2VUb1RleHREaXN0YW5jZQEEBAAAE1N5c3RlbS5EcmF3aW5nLlNpemUHAAAAJkRldkV4cHJl
+        c3MuVXRpbHMuVG9vbFRpcEltYWdlQWxpZ25tZW50AgAAAAgIAgAAAAYLAAAAAAX0////E1N5c3RlbS5E
+        cmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgHAAAAAAAAAAAAAAAF8////yZEZXZFeHByZXNz
+        LlV0aWxzLlRvb2xUaXBJbWFnZUFsaWdubWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAD/////DgAAAAs=
+</value>
+  </data>
   <data name="ribbon.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -170,7 +521,34 @@
     <value>Test</value>
   </data>
   <data name="ribbonPage1.Text" xml:space="preserve">
-    <value>ribbonPage1</value>
+    <value>Test</value>
+  </data>
+  <data name="ribbonPage2.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ribbonPageGroup6.Text" xml:space="preserve">
+    <value>ribbonPageGroup6</value>
+  </data>
+  <data name="ribbonPage3.Text" xml:space="preserve">
+    <value>ribbonPage3</value>
+  </data>
+  <data name="ribbonPageGroup7.Text" xml:space="preserve">
+    <value>ribbonPageGroup7</value>
+  </data>
+  <data name="ribbonPage4.Text" xml:space="preserve">
+    <value>ribbonPage4</value>
+  </data>
+  <data name="ribbonPageGroup8.Text" xml:space="preserve">
+    <value>ribbonPageGroup8</value>
+  </data>
+  <data name="ribbonPage5.Text" xml:space="preserve">
+    <value>ribbonPage5</value>
+  </data>
+  <data name="ribbonPageGroup9.Text" xml:space="preserve">
+    <value>ribbonPageGroup9</value>
+  </data>
+  <data name="ribbonPage6.Text" xml:space="preserve">
+    <value>ribbonPage6</value>
   </data>
   <data name="ribbon.Size" type="System.Drawing.Size, System.Drawing">
     <value>1186, 182</value>
@@ -277,28 +655,118 @@
   <data name="&gt;&gt;repositoryItemDateEdit2.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.Repository.RepositoryItemDateEdit, DevExpress.XtraEditors.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;barStaticItem2.Name" xml:space="preserve">
-    <value>barStaticItem2</value>
+  <data name="&gt;&gt;txtDate.Name" xml:space="preserve">
+    <value>txtDate</value>
   </data>
-  <data name="&gt;&gt;barStaticItem2.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtDate.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;barStaticItem3.Name" xml:space="preserve">
-    <value>barStaticItem3</value>
+  <data name="&gt;&gt;txtTime.Name" xml:space="preserve">
+    <value>txtTime</value>
   </data>
-  <data name="&gt;&gt;barStaticItem3.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtTime.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;barStaticItem4.Name" xml:space="preserve">
-    <value>barStaticItem4</value>
+  <data name="&gt;&gt;txtStatus.Name" xml:space="preserve">
+    <value>txtStatus</value>
   </data>
-  <data name="&gt;&gt;barStaticItem4.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtStatus.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;btnNewForm.Name" xml:space="preserve">
     <value>btnNewForm</value>
   </data>
   <data name="&gt;&gt;btnNewForm.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dtDate.Name" xml:space="preserve">
+    <value>dtDate</value>
+  </data>
+  <data name="&gt;&gt;dtDate.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemDateEdit3.Name" xml:space="preserve">
+    <value>repositoryItemDateEdit3</value>
+  </data>
+  <data name="&gt;&gt;repositoryItemDateEdit3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.Repository.RepositoryItemDateEdit, DevExpress.XtraEditors.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Name" xml:space="preserve">
+    <value>barButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Name" xml:space="preserve">
+    <value>barButtonItem2</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Name" xml:space="preserve">
+    <value>barButtonItem3</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem4.Name" xml:space="preserve">
+    <value>barButtonItem4</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem5.Name" xml:space="preserve">
+    <value>barButtonItem5</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSSoftware.Name" xml:space="preserve">
+    <value>btnSSoftware</value>
+  </data>
+  <data name="&gt;&gt;btnSSoftware.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnUsersPermission.Name" xml:space="preserve">
+    <value>btnUsersPermission</value>
+  </data>
+  <data name="&gt;&gt;btnUsersPermission.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnEmployee.Name" xml:space="preserve">
+    <value>btnEmployee</value>
+  </data>
+  <data name="&gt;&gt;btnEmployee.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem9.Name" xml:space="preserve">
+    <value>barButtonItem9</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnBackup.Name" xml:space="preserve">
+    <value>btnBackup</value>
+  </data>
+  <data name="&gt;&gt;btnBackup.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnConnectDB.Name" xml:space="preserve">
+    <value>btnConnectDB</value>
+  </data>
+  <data name="&gt;&gt;btnConnectDB.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem6.Name" xml:space="preserve">
+    <value>barButtonItem6</value>
+  </data>
+  <data name="&gt;&gt;barButtonItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnEditInvoices.Name" xml:space="preserve">
+    <value>btnEditInvoices</value>
+  </data>
+  <data name="&gt;&gt;btnEditInvoices.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;ribbonPage1.Name" xml:space="preserve">
@@ -313,11 +781,95 @@
   <data name="&gt;&gt;ribbonPageGroup1.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <data name="&gt;&gt;ribbonPage2.Name" xml:space="preserve">
+    <value>ribbonPage2</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup2.Name" xml:space="preserve">
+    <value>ribbonPageGroup2</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup3.Name" xml:space="preserve">
+    <value>ribbonPageGroup3</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup4.Name" xml:space="preserve">
+    <value>ribbonPageGroup4</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup5.Name" xml:space="preserve">
+    <value>ribbonPageGroup5</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="&gt;&gt;mdiManager.Name" xml:space="preserve">
     <value>mdiManager</value>
   </data>
   <data name="&gt;&gt;mdiManager.Type" xml:space="preserve">
     <value>DevExpress.XtraTabbedMdi.XtraTabbedMdiManager, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;timerTimes.Name" xml:space="preserve">
+    <value>timerTimes</value>
+  </data>
+  <data name="&gt;&gt;timerTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage3.Name" xml:space="preserve">
+    <value>ribbonPage3</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup6.Name" xml:space="preserve">
+    <value>ribbonPageGroup6</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup6.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage4.Name" xml:space="preserve">
+    <value>ribbonPage4</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup7.Name" xml:space="preserve">
+    <value>ribbonPageGroup7</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup7.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage5.Name" xml:space="preserve">
+    <value>ribbonPage5</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup8.Name" xml:space="preserve">
+    <value>ribbonPageGroup8</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup8.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage6.Name" xml:space="preserve">
+    <value>ribbonPage6</value>
+  </data>
+  <data name="&gt;&gt;ribbonPage6.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup9.Name" xml:space="preserve">
+    <value>ribbonPageGroup9</value>
+  </data>
+  <data name="&gt;&gt;ribbonPageGroup9.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmMain</value>
@@ -325,4 +877,7 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v18.1, Version=18.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <metadata name="timerTimes.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>161, 17</value>
+  </metadata>
 </root>

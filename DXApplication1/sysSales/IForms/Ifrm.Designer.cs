@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ifrm));
-            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem8 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem4 = new DevExpress.Utils.ToolTipItem();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar2 = new DevExpress.XtraBars.Bar();
             this.btnNew = new DevExpress.XtraBars.BarButtonItem();
@@ -48,11 +48,7 @@
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
-            this.lcMain = new DevExpress.XtraLayout.LayoutControl();
-            this.lcgMain = new DevExpress.XtraLayout.LayoutControlGroup();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lcMain)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lcgMain)).BeginInit();
             this.SuspendLayout();
             // 
             // barManager1
@@ -93,11 +89,11 @@
             // 
             this.btnNew.Caption = "New";
             this.btnNew.Id = 0;
-            this.btnNew.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
+            this.btnNew.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnNew.ImageOptions.Image")));
             this.btnNew.Name = "btnNew";
-            toolTipItem5.Text = "New";
-            superToolTip5.Items.Add(toolTipItem5);
-            this.btnNew.SuperTip = superToolTip5;
+            toolTipItem1.Text = "New";
+            superToolTip1.Items.Add(toolTipItem1);
+            this.btnNew.SuperTip = superToolTip1;
             // 
             // barButtonItem2
             // 
@@ -105,9 +101,9 @@
             this.barButtonItem2.Id = 1;
             this.barButtonItem2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.Image")));
             this.barButtonItem2.Name = "barButtonItem2";
-            toolTipItem6.Text = "Add";
-            superToolTip6.Items.Add(toolTipItem6);
-            this.barButtonItem2.SuperTip = superToolTip6;
+            toolTipItem2.Text = "Add";
+            superToolTip2.Items.Add(toolTipItem2);
+            this.barButtonItem2.SuperTip = superToolTip2;
             // 
             // barButtonItem3
             // 
@@ -115,9 +111,9 @@
             this.barButtonItem3.Id = 2;
             this.barButtonItem3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
             this.barButtonItem3.Name = "barButtonItem3";
-            toolTipItem7.Text = "Update";
-            superToolTip7.Items.Add(toolTipItem7);
-            this.barButtonItem3.SuperTip = superToolTip7;
+            toolTipItem3.Text = "Update";
+            superToolTip3.Items.Add(toolTipItem3);
+            this.barButtonItem3.SuperTip = superToolTip3;
             // 
             // barButtonItem4
             // 
@@ -125,9 +121,9 @@
             this.barButtonItem4.Id = 3;
             this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
             this.barButtonItem4.Name = "barButtonItem4";
-            toolTipItem8.Text = "Delete";
-            superToolTip8.Items.Add(toolTipItem8);
-            this.barButtonItem4.SuperTip = superToolTip8;
+            toolTipItem4.Text = "Delete";
+            superToolTip4.Items.Add(toolTipItem4);
+            this.barButtonItem4.SuperTip = superToolTip4;
             // 
             // barDockControlTop
             // 
@@ -161,30 +157,11 @@
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Size = new System.Drawing.Size(0, 501);
             // 
-            // lcMain
-            // 
-            this.lcMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lcMain.Location = new System.Drawing.Point(0, 52);
-            this.lcMain.Name = "lcMain";
-            this.lcMain.Root = this.lcgMain;
-            this.lcMain.Size = new System.Drawing.Size(1182, 501);
-            this.lcMain.TabIndex = 4;
-            this.lcMain.Text = "layoutControl1";
-            // 
-            // lcgMain
-            // 
-            this.lcgMain.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True;
-            this.lcgMain.GroupBordersVisible = false;
-            this.lcgMain.Name = "lcgMain";
-            this.lcgMain.Size = new System.Drawing.Size(1182, 501);
-            this.lcgMain.TextVisible = false;
-            // 
             // Ifrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 553);
-            this.Controls.Add(this.lcMain);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
@@ -193,8 +170,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ifrm";
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lcMain)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lcgMain)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -212,7 +187,5 @@
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
         private DevExpress.XtraBars.BarDockControl barDockControlRight;
-        private DevExpress.XtraLayout.LayoutControl lcMain;
-        private DevExpress.XtraLayout.LayoutControlGroup lcgMain;
     }
 }
