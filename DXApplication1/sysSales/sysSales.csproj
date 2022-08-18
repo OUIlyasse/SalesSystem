@@ -77,6 +77,12 @@
     <Compile Include="IForms\IfrmList.Designer.cs">
       <DependentUpon>IfrmList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Main\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,11 +91,35 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sub\frmBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub\frmBackup.Designer.cs">
+      <DependentUpon>frmBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sub\frmEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub\frmEmployees.Designer.cs">
+      <DependentUpon>frmEmployees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sub\frmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub\frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sub\frmInfoCompany.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sub\frmInfoCompany.Designer.cs">
       <DependentUpon>frmInfoCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sub\frmUserPermissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sub\frmUserPermissions.Designer.cs">
+      <DependentUpon>frmUserPermissions.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="IForms\Ifrm.resx">
       <DependentUpon>Ifrm.cs</DependentUpon>
@@ -106,8 +136,17 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sub\frmBackup.resx">
+      <DependentUpon>frmBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub\frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sub\frmInfoCompany.resx">
       <DependentUpon>frmInfoCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sub\frmUserPermissions.resx">
+      <DependentUpon>frmUserPermissions.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
