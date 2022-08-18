@@ -21,7 +21,7 @@ namespace SalesDB.DB
         }
     
         public decimal imp_ID { get; set; }
-        public Nullable<decimal> imp_Code { get; set; }
+        public string imp_Code { get; set; }
         public Nullable<System.DateTime> imp_Date { get; set; }
         public string imp_Nom { get; set; }
         public Nullable<decimal> imp_Montant { get; set; }

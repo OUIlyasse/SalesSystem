@@ -21,7 +21,7 @@ namespace SalesDB.DB
         }
     
         public decimal catg_ID { get; set; }
-        public Nullable<decimal> catg_Code { get; set; }
+        public string catg_Code { get; set; }
         public string catg_Nom { get; set; }
         public Nullable<bool> catg_Status { get; set; }
         public string catg_Note { get; set; }

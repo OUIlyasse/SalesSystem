@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Produit_Image
     {
         public decimal img_ID { get; set; }
-        public Nullable<decimal> img_Code { get; set; }
+        public string img_Code { get; set; }
         public string img_Nom { get; set; }
         public string img_Emplacement { get; set; }
         public Nullable<bool> img_Status { get; set; }

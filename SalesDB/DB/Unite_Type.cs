@@ -26,7 +26,7 @@ namespace SalesDB.DB
         }
     
         public decimal unt_T_ID { get; set; }
-        public Nullable<decimal> unt_T_Code { get; set; }
+        public string unt_T_Code { get; set; }
         public string unt_T_Nom { get; set; }
         public string unt_T_Type { get; set; }
         public Nullable<bool> unt_T_Status { get; set; }

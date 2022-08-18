@@ -21,7 +21,7 @@ namespace SalesDB.DB
         }
     
         public decimal chg_ID { get; set; }
-        public Nullable<decimal> chg_Code { get; set; }
+        public string chg_Code { get; set; }
         public string chg_Nom { get; set; }
         public Nullable<decimal> chg_Max_Valeur { get; set; }
         public Nullable<bool> chg_Status { get; set; }

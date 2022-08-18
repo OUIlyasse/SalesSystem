@@ -25,7 +25,7 @@ namespace SalesDB.DB
         }
     
         public decimal clt_ID { get; set; }
-        public Nullable<decimal> clt_Code { get; set; }
+        public string clt_Code { get; set; }
         public string clt_Nom { get; set; }
         public Nullable<System.DateTime> clt_Date { get; set; }
         public string clt_Nature { get; set; }

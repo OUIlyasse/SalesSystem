@@ -22,7 +22,7 @@ namespace SalesDB.DB
         }
     
         public decimal recu_T_ID { get; set; }
-        public Nullable<decimal> recu_T_Code { get; set; }
+        public string recu_T_Code { get; set; }
         public string recu_T_Type { get; set; }
         public Nullable<bool> recu_T_Status { get; set; }
         public string recu_T_Note { get; set; }

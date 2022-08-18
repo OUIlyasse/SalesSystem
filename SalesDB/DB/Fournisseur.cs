@@ -25,7 +25,7 @@ namespace SalesDB.DB
         }
     
         public decimal frns_ID { get; set; }
-        public Nullable<decimal> frns_Code { get; set; }
+        public string frns_Code { get; set; }
         public string frns_Nom { get; set; }
         public Nullable<System.DateTime> frns_Date { get; set; }
         public string frns_Nature { get; set; }

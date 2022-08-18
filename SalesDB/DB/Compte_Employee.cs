@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Compte_Employee
     {
         public decimal empl_C_ID { get; set; }
-        public Nullable<decimal> empl_C_Code { get; set; }
+        public string empl_C_Code { get; set; }
         public Nullable<System.DateTime> empl_C_Date { get; set; }
         public Nullable<System.TimeSpan> empl_C_Temps { get; set; }
         public Nullable<decimal> empl_C_Solde { get; set; }

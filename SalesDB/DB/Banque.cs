@@ -22,7 +22,7 @@ namespace SalesDB.DB
         }
     
         public decimal ban_ID { get; set; }
-        public Nullable<decimal> ban_Code { get; set; }
+        public string ban_Code { get; set; }
         public string ban_Nom { get; set; }
         public string ban_Adresse { get; set; }
         public string ban_Tele { get; set; }

@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Operation_Facture_Vente
     {
         public decimal fact_V_O_ID { get; set; }
-        public Nullable<decimal> fact_V_O_Code { get; set; }
+        public string fact_V_O_Code { get; set; }
         public Nullable<System.DateTime> fact_V_O_Date { get; set; }
         public Nullable<System.TimeSpan> fact_V_O_Temps { get; set; }
         public Nullable<decimal> clt_ID { get; set; }

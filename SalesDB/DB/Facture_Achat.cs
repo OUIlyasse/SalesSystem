@@ -26,7 +26,7 @@ namespace SalesDB.DB
         }
     
         public decimal fact_A_ID { get; set; }
-        public Nullable<decimal> fact_A_Code { get; set; }
+        public string fact_A_Code { get; set; }
         public Nullable<System.DateTime> fact_A_Date { get; set; }
         public Nullable<System.TimeSpan> fact_A_Temps { get; set; }
         public Nullable<System.DateTime> fact_A_Ech_Date { get; set; }

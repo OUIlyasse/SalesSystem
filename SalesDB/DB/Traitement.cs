@@ -22,7 +22,7 @@ namespace SalesDB.DB
         }
     
         public decimal trait_ID { get; set; }
-        public Nullable<decimal> trait_Code { get; set; }
+        public string trait_Code { get; set; }
         public string trait_Type { get; set; }
         public Nullable<int> trait_Status { get; set; }
         public string trait_Note { get; set; }

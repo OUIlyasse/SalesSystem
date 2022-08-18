@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Operation_Impot
     {
         public decimal imp_O_ID { get; set; }
-        public Nullable<decimal> imp_O_Code { get; set; }
+        public string imp_O_Code { get; set; }
         public Nullable<System.DateTime> imp_O_Date { get; set; }
         public Nullable<System.TimeSpan> imp_O_Temps { get; set; }
         public Nullable<decimal> imp_O_Montant_tva { get; set; }

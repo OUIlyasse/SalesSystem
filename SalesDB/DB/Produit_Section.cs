@@ -21,7 +21,7 @@ namespace SalesDB.DB
         }
     
         public decimal sub_ID { get; set; }
-        public Nullable<decimal> sub_Code { get; set; }
+        public string sub_Code { get; set; }
         public string sub_Nom { get; set; }
         public string sub_Type { get; set; }
         public Nullable<bool> sub_Status { get; set; }

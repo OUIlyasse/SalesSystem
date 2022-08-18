@@ -10,7 +10,7 @@
             <PropertyRef Name="ban_ID" />
           </Key>
           <Property Name="ban_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="ban_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="ban_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="ban_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="ban_Adresse" Type="nvarchar(max)" />
           <Property Name="ban_Tele" Type="nvarchar(max)" />
@@ -23,7 +23,7 @@
             <PropertyRef Name="bon_D_ID" />
           </Key>
           <Property Name="bon_D_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_D_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="bon_D_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="bon_D_Date" Type="date" />
           <Property Name="bon_D_Temps" Type="time" Precision="7" />
           <Property Name="bon_D_Text" Type="nvarchar(max)" />
@@ -37,7 +37,7 @@
             <PropertyRef Name="prd_B_D_ID" />
           </Key>
           <Property Name="prd_B_D_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="prd_B_D_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="prd_B_D_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="prd_B_D_Date" Type="date" />
           <Property Name="prd_B_D_Temps" Type="time" Precision="7" />
           <Property Name="prd_B_D_Quantite" Type="int" />
@@ -52,7 +52,7 @@
             <PropertyRef Name="bon_E_ID" />
           </Key>
           <Property Name="bon_E_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_E_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="bon_E_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="bon_E_Date" Type="date" />
           <Property Name="bon_E_Temps" Type="time" Precision="7" />
           <Property Name="bon_E_Text" Type="nvarchar(max)" />
@@ -66,7 +66,7 @@
             <PropertyRef Name="prd_B_E_ID" />
           </Key>
           <Property Name="prd_B_E_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="prd_B_E_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="prd_B_E_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="prd_B_E_Date" Type="date" />
           <Property Name="prd_B_E_Temps" Type="time" Precision="7" />
           <Property Name="prd_B_E_Quantite" Type="int" />
@@ -81,7 +81,7 @@
             <PropertyRef Name="bon_S_ID" />
           </Key>
           <Property Name="bon_S_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_S_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="bon_S_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="bon_S_Date" Type="date" />
           <Property Name="bon_S_Temps" Type="time" Precision="7" />
           <Property Name="bon_S_Text" Type="nvarchar(max)" />
@@ -95,7 +95,7 @@
             <PropertyRef Name="prd_B_S_ID" />
           </Key>
           <Property Name="prd_B_S_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="prd_B_S_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="prd_B_S_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="prd_B_S_Date" Type="date" />
           <Property Name="prd_B_S_Temps" Type="time" Precision="7" />
           <Property Name="prd_B_S_Quantite" Type="int" />
@@ -110,7 +110,7 @@
             <PropertyRef Name="bon_T_ID" />
           </Key>
           <Property Name="bon_T_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_T_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="bon_T_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="bon_T_Type" Type="nvarchar" MaxLength="200" />
           <Property Name="bon_T_Status" Type="bit" />
           <Property Name="bon_T_Note" Type="nvarchar(max)" />
@@ -120,7 +120,7 @@
             <PropertyRef Name="barn_ID" />
           </Key>
           <Property Name="barn_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="barn_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="barn_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="barn_Nom" Type="nvarchar" MaxLength="50" />
           <Property Name="barn_Adresse" Type="nvarchar(max)" />
           <Property Name="barn_Tele" Type="nchar" MaxLength="10" />
@@ -135,7 +135,7 @@
             <PropertyRef Name="chg_ID" />
           </Key>
           <Property Name="chg_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="chg_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="chg_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="chg_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="chg_Max_Valeur" Type="decimal" Precision="18" Scale="3" />
           <Property Name="chg_Status" Type="bit" />
@@ -147,7 +147,7 @@
             <PropertyRef Name="chg_T_ID" />
           </Key>
           <Property Name="chg_T_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="chg_T_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="chg_T_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="chg_T_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="chg_T_Detail" Type="nvarchar(max)" />
           <Property Name="chg_T_Status" Type="bit" />
@@ -158,7 +158,7 @@
             <PropertyRef Name="clt_ID" />
           </Key>
           <Property Name="clt_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="clt_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="clt_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="clt_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="clt_Date" Type="date" />
           <Property Name="clt_Nature" Type="nvarchar(max)" />
@@ -174,7 +174,7 @@
             <PropertyRef Name="ban_C_ID" />
           </Key>
           <Property Name="ban_C_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="ban_C_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="ban_C_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="ban_C_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="ban_C_Date_Creation" Type="date" />
           <Property Name="ban_C_D_Solde" Type="decimal" Precision="18" Scale="2" />
@@ -191,7 +191,7 @@
             <PropertyRef Name="chg_C_ID" />
           </Key>
           <Property Name="chg_C_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="chg_C_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="chg_C_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="chg_C_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="chg_C_Date" Type="date" />
           <Property Name="chg_C_Status" Type="bit" />
@@ -203,7 +203,7 @@
             <PropertyRef Name="clt_C_ID" />
           </Key>
           <Property Name="clt_C_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="clt_C_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="clt_C_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="clt_C_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="clt_C_Date" Type="date" />
           <Property Name="clt_C_Limit_Montant" Type="decimal" Precision="18" Scale="2" />
@@ -217,7 +217,7 @@
             <PropertyRef Name="empl_C_ID" />
           </Key>
           <Property Name="empl_C_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="empl_C_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="empl_C_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="empl_C_Date" Type="date" />
           <Property Name="empl_C_Temps" Type="time" Precision="7" />
           <Property Name="empl_C_Solde" Type="decimal" Precision="18" Scale="3" />
@@ -230,7 +230,7 @@
             <PropertyRef Name="esp_C_ID" />
           </Key>
           <Property Name="esp_C_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="esp_C_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="esp_C_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="esp_C_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="esp_C_Date_Creation" Type="date" />
           <Property Name="esp_C_D_Solde" Type="decimal" Precision="18" Scale="2" />
@@ -244,7 +244,7 @@
             <PropertyRef Name="frns_C_ID" />
           </Key>
           <Property Name="frns_C_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="frns_C_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="frns_C_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="frns_C_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="frns_C_Date" Type="date" />
           <Property Name="frns_C_Limit_Montant" Type="decimal" Precision="18" Scale="2" />
@@ -258,7 +258,7 @@
             <PropertyRef Name="loc_C_ID" />
           </Key>
           <Property Name="loc_C_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="loc_C_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="loc_C_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="loc_C_Date_Creation" Type="datetime" />
           <Property Name="loc_C_Solde" Type="decimal" Precision="18" Scale="3" />
           <Property Name="loc_C_Min" Type="decimal" Precision="18" Scale="3" />
@@ -273,7 +273,7 @@
             <PropertyRef Name="loc_C_T_ID" />
           </Key>
           <Property Name="loc_C_T_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="loc_C_T_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="loc_C_T_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="loc_C_T_Nom" Type="nvarchar(max)" />
           <Property Name="loc_C_T_Type" Type="nvarchar" MaxLength="300" />
           <Property Name="loc_C_T_Status" Type="bit" />
@@ -284,7 +284,7 @@
             <PropertyRef Name="dvs_ID" />
           </Key>
           <Property Name="dvs_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="dvs_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="dvs_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="dvs_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="dvs_Type" Type="nvarchar(max)" />
           <Property Name="dvs_Nationalite" Type="nvarchar(max)" />
@@ -298,7 +298,7 @@
             <PropertyRef Name="dvs_B_ID" />
           </Key>
           <Property Name="dvs_B_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="dvs_B_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="dvs_B_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="dvs_B_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="dvs_B_Status" Type="bit" />
           <Property Name="ban_ID" Type="numeric" Precision="18" Scale="0" />
@@ -309,7 +309,7 @@
             <PropertyRef Name="empl_ID" />
           </Key>
           <Property Name="empl_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="empl_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="empl_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="empl_Nom" Type="nvarchar" MaxLength="300" />
           <Property Name="empl_Prenom" Type="nvarchar" MaxLength="300" />
           <Property Name="empl_Type" Type="nvarchar(max)" />
@@ -328,7 +328,7 @@
             <PropertyRef Name="empl_S_ID" />
           </Key>
           <Property Name="empl_S_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="empl_S_Code" Type="nvarchar" MaxLength="50" />
+          <Property Name="empl_S_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="empl_S_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="empl_S_Salaire" Type="decimal" Precision="18" Scale="3" />
           <Property Name="empl_S_Remise" Type="decimal" Precision="18" Scale="3" />
@@ -343,15 +343,18 @@
             <PropertyRef Name="entr_ID" />
           </Key>
           <Property Name="entr_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="entr_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="entr_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="entr_Nom" Type="nvarchar" MaxLength="150" />
           <Property Name="entr_Adresse1" Type="nvarchar(max)" />
           <Property Name="entr_Adresse2" Type="nvarchar(max)" />
-          <Property Name="entr_Adresse3" Type="nvarchar(max)" />
-          <Property Name="entr_Tele1" Type="nvarchar" MaxLength="50" />
-          <Property Name="entr_Tele2" Type="nvarchar" MaxLength="50" />
-          <Property Name="entr_Tele3" Type="nvarchar" MaxLength="50" />
-          <Property Name="entr_Fax" Type="nvarchar" MaxLength="50" />
+          <Property Name="entr_Mobile1" Type="nvarchar(max)" />
+          <Property Name="entr_Mobile2" Type="nvarchar(max)" />
+          <Property Name="entr_Fixe1" Type="nvarchar(max)" />
+          <Property Name="entr_fixe2" Type="nvarchar(max)" />
+          <Property Name="entr_Fax1" Type="nvarchar(max)" />
+          <Property Name="entr_Fax2" Type="nvarchar(max)" />
+          <Property Name="entr_Email" Type="nvarchar(max)" />
+          <Property Name="entr_Image" Type="image" />
           <Property Name="entr_Note" Type="nvarchar(max)" />
         </EntityType>
         <EntityType Name="Facture_Achat">
@@ -359,7 +362,7 @@
             <PropertyRef Name="fact_A_ID" />
           </Key>
           <Property Name="fact_A_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_A_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_A_Date" Type="date" />
           <Property Name="fact_A_Temps" Type="time" Precision="7" />
           <Property Name="fact_A_Ech_Date" Type="datetime" />
@@ -384,7 +387,7 @@
             <PropertyRef Name="fact_A_B_ID" />
           </Key>
           <Property Name="fact_A_B_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_B_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_A_B_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_A_B_Date" Type="date" />
           <Property Name="fact_A_B_Temps" Type="time" Precision="7" />
           <Property Name="fact_A_B_Text" Type="nvarchar(max)" />
@@ -401,7 +404,7 @@
             <PropertyRef Name="fact_A_P_ID" />
           </Key>
           <Property Name="fact_A_P_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_P_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_A_P_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_A_P_Date" Type="date" />
           <Property Name="fact_A_P_Temps" Type="time" Precision="7" />
           <Property Name="fact_A_P_Text" Type="nvarchar(max)" />
@@ -423,7 +426,7 @@
             <PropertyRef Name="fact_A_P_R_ID" />
           </Key>
           <Property Name="fact_A_P_R_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_P_R_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_A_P_R_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_A_P_R_Date" Type="date" />
           <Property Name="fact_A_P_R_Temps" Type="time" Precision="7" />
           <Property Name="fact_A_P_R_Text" Type="nvarchar(max)" />
@@ -445,7 +448,7 @@
             <PropertyRef Name="fact_A_R_ID" />
           </Key>
           <Property Name="fact_A_R_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_R_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_A_R_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_A_R_Date" Type="date" />
           <Property Name="fact_A_R_Temps" Type="time" Precision="7" />
           <Property Name="fact_A_R_Ech_Date" Type="datetime" />
@@ -471,7 +474,7 @@
             <PropertyRef Name="pay_ID" />
           </Key>
           <Property Name="pay_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="pay_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="pay_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="pay_Type" Type="nvarchar" MaxLength="200" />
           <Property Name="pay_Status" Type="bit" />
           <Property Name="pay_Note" Type="nvarchar(max)" />
@@ -481,7 +484,7 @@
             <PropertyRef Name="fact_T_ID" />
           </Key>
           <Property Name="fact_T_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_T_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_T_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_T_Type" Type="nvarchar" MaxLength="200" />
           <Property Name="fact_T_Status" Type="bit" />
           <Property Name="fact_T_Note" Type="nvarchar(max)" />
@@ -491,7 +494,7 @@
             <PropertyRef Name="fact_V_ID" />
           </Key>
           <Property Name="fact_V_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_V_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_V_Date" Type="date" />
           <Property Name="fact_V_Temps" Type="time" Precision="7" />
           <Property Name="fact_V_Ech_Date" Type="datetime" />
@@ -516,7 +519,7 @@
             <PropertyRef Name="fact_V_B_ID" />
           </Key>
           <Property Name="fact_V_B_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_B_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_V_B_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_V_B_Date" Type="date" />
           <Property Name="fact_V_B_Temps" Type="time" Precision="7" />
           <Property Name="fact_V_B_Text" Type="nvarchar(max)" />
@@ -533,7 +536,7 @@
             <PropertyRef Name="fact_V_P_ID" />
           </Key>
           <Property Name="fact_V_P_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_P_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_V_P_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_V_P_Date" Type="date" />
           <Property Name="fact_V_P_Temps" Type="time" Precision="7" />
           <Property Name="fact_V_P_Text" Type="nvarchar(max)" />
@@ -555,7 +558,7 @@
             <PropertyRef Name="fact_V_P_R_ID" />
           </Key>
           <Property Name="fact_V_P_R_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_P_R_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_V_P_R_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_V_P_R_Date" Type="date" />
           <Property Name="fact_V_P_R_Temps" Type="time" Precision="7" />
           <Property Name="fact_V_P_R_Text" Type="nvarchar(max)" />
@@ -577,7 +580,7 @@
             <PropertyRef Name="fact_V_R_ID" />
           </Key>
           <Property Name="fact_V_R_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_R_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_V_R_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_V_R_Date" Type="date" />
           <Property Name="fact_V_R_Temps" Type="time" Precision="7" />
           <Property Name="fact_V_R_Ech_Date" Type="datetime" />
@@ -603,7 +606,7 @@
             <PropertyRef Name="frns_ID" />
           </Key>
           <Property Name="frns_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="frns_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="frns_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="frns_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="frns_Date" Type="date" />
           <Property Name="frns_Nature" Type="nvarchar(max)" />
@@ -619,7 +622,7 @@
             <PropertyRef Name="imp_ID" />
           </Key>
           <Property Name="imp_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="imp_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="imp_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="imp_Date" Type="datetime" />
           <Property Name="imp_Nom" Type="nvarchar" MaxLength="300" />
           <Property Name="imp_Montant" Type="decimal" Precision="18" Scale="3" />
@@ -632,7 +635,7 @@
             <PropertyRef Name="mags_ID" />
           </Key>
           <Property Name="mags_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="mags_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="mags_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="mags_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="mags_Date" Type="date" />
           <Property Name="mags_Emplacement" Type="nvarchar(max)" />
@@ -647,7 +650,7 @@
             <PropertyRef Name="mgs_Branche_ID" />
           </Key>
           <Property Name="mgs_Branche_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="mgs_Branche_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="mgs_Branche_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="mgs_Branche_Date" Type="datetime" />
           <Property Name="mgs_Branche_Status" Type="bit" />
           <Property Name="barn_ID" Type="numeric" Precision="18" Scale="0" />
@@ -659,7 +662,7 @@
             <PropertyRef Name="cais_ID" />
           </Key>
           <Property Name="cais_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="cais_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="cais_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="cais_Date_Creation" Type="date" />
           <Property Name="cais_D_Solde" Type="decimal" Precision="18" Scale="2" />
           <Property Name="cais_Z_Solde" Type="decimal" Precision="18" Scale="2" />
@@ -673,7 +676,7 @@
             <PropertyRef Name="bon_E_Mags_ID" />
           </Key>
           <Property Name="bon_E_Mags_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_E_Mags_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="bon_E_Mags_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="bon_E_Mags_Date" Type="date" />
           <Property Name="bon_E_Mags_Temps" Type="time" Precision="7" />
           <Property Name="bon_E_Mags_Text" Type="nvarchar(max)" />
@@ -686,7 +689,7 @@
             <PropertyRef Name="bon_S_Mags_ID" />
           </Key>
           <Property Name="bon_S_Mags_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_S_Mags_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="bon_S_Mags_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="bon_S_Mags_Date" Type="date" />
           <Property Name="bon_S_Mags_Temps" Type="time" Precision="7" />
           <Property Name="bon_S_Mags_Text" Type="nvarchar(max)" />
@@ -699,7 +702,7 @@
             <PropertyRef Name="cais_O_ID" />
           </Key>
           <Property Name="cais_O_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="cais_O_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="cais_O_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="cais_O_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="cais_O_Date" Type="date" />
           <Property Name="cais_O_Temps" Type="time" Precision="7" />
@@ -717,7 +720,7 @@
             <PropertyRef Name="fact_A_O_ID" />
           </Key>
           <Property Name="fact_A_O_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_O_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_A_O_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_A_O_Date" Type="date" />
           <Property Name="fact_A_O_Temps" Type="time" Precision="7" />
           <Property Name="frns_ID" Type="numeric" Precision="18" Scale="0" />
@@ -736,7 +739,7 @@
             <PropertyRef Name="fact_A_R_O_ID" />
           </Key>
           <Property Name="fact_A_R_O_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_R_O_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_A_R_O_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_A_R_O_Date" Type="date" />
           <Property Name="fact_A_R_O_Temps" Type="time" Precision="7" />
           <Property Name="frns_ID" Type="numeric" Precision="18" Scale="0" />
@@ -755,7 +758,7 @@
             <PropertyRef Name="fact_V_O_ID" />
           </Key>
           <Property Name="fact_V_O_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_O_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_V_O_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_V_O_Date" Type="date" />
           <Property Name="fact_V_O_Temps" Type="time" Precision="7" />
           <Property Name="clt_ID" Type="numeric" Precision="18" Scale="0" />
@@ -774,7 +777,7 @@
             <PropertyRef Name="fact_V_R_O_ID" />
           </Key>
           <Property Name="fact_V_R_O_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_R_O_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="fact_V_R_O_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="fact_V_R_O_Date" Type="date" />
           <Property Name="fact_V_R_O_Temps" Type="time" Precision="7" />
           <Property Name="clt_ID" Type="numeric" Precision="18" Scale="0" />
@@ -793,7 +796,7 @@
             <PropertyRef Name="imp_O_ID" />
           </Key>
           <Property Name="imp_O_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="imp_O_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="imp_O_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="imp_O_Date" Type="date" />
           <Property Name="imp_O_Temps" Type="time" Precision="7" />
           <Property Name="imp_O_Montant_tva" Type="decimal" Precision="18" Scale="3" />
@@ -808,7 +811,7 @@
             <PropertyRef Name="recu_A_O_ID" />
           </Key>
           <Property Name="recu_A_O_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_A_O_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="recu_A_O_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="recu_A_O_Date" Type="date" />
           <Property Name="recu_A_O_Temps" Type="time" Precision="7" />
           <Property Name="recu_A_O_Text" Type="nvarchar(max)" />
@@ -827,7 +830,7 @@
             <PropertyRef Name="recu_V_O_ID" />
           </Key>
           <Property Name="recu_V_O_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_V_O_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="recu_V_O_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="recu_V_O_Date" Type="date" />
           <Property Name="recu_V_O_Temps" Type="time" Precision="7" />
           <Property Name="recu_V_O_Text" Type="nvarchar(max)" />
@@ -846,7 +849,7 @@
             <PropertyRef Name="prd_ID" />
           </Key>
           <Property Name="prd_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="prd_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="prd_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="prd_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="typ_ID" Type="numeric" Precision="18" Scale="0" />
           <Property Name="prd_Nbr_Min" Type="int" />
@@ -871,7 +874,7 @@
             <PropertyRef Name="brdc_ID" />
           </Key>
           <Property Name="brdc_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="brdc_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="brdc_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="brdc_Numero" Type="nvarchar" MaxLength="500" />
           <Property Name="brdc_Type" Type="nvarchar(max)" />
           <Property Name="brdc_Status" Type="bit" />
@@ -883,7 +886,7 @@
             <PropertyRef Name="box_ID" />
           </Key>
           <Property Name="box_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="box_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="box_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="box_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="box_Type" Type="nvarchar(max)" />
           <Property Name="box_Status" Type="bit" />
@@ -894,7 +897,7 @@
             <PropertyRef Name="catg_ID" />
           </Key>
           <Property Name="catg_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="catg_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="catg_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="catg_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="catg_Status" Type="bit" />
           <Property Name="catg_Note" Type="nvarchar(max)" />
@@ -904,7 +907,7 @@
             <PropertyRef Name="dtl_ID" />
           </Key>
           <Property Name="dtl_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="dtl_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="dtl_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="dtl_Pays_Orig" Type="nvarchar(max)" />
           <Property Name="dtl_Date_Production" Type="date" />
           <Property Name="dtl_Date_Expiration" Type="date" />
@@ -918,7 +921,7 @@
             <PropertyRef Name="emp_ID" />
           </Key>
           <Property Name="emp_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="emp_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="emp_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="emp_Date" Type="datetime" />
           <Property Name="emp_Place" Type="nvarchar(max)" />
           <Property Name="emp_Case" Type="nvarchar(max)" />
@@ -933,7 +936,7 @@
             <PropertyRef Name="img_ID" />
           </Key>
           <Property Name="img_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="img_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="img_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="img_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="img_Emplacement" Type="nvarchar(max)" />
           <Property Name="img_Status" Type="bit" />
@@ -945,7 +948,7 @@
             <PropertyRef Name="sub_ID" />
           </Key>
           <Property Name="sub_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="sub_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="sub_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="sub_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="sub_Type" Type="nvarchar(max)" />
           <Property Name="sub_Status" Type="bit" />
@@ -957,7 +960,7 @@
             <PropertyRef Name="typ_ID" />
           </Key>
           <Property Name="typ_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="typ_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="typ_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="typ_Type" Type="nvarchar" MaxLength="200" />
           <Property Name="typ_Status" Type="bit" />
           <Property Name="typ_Note" Type="nvarchar(max)" />
@@ -967,7 +970,7 @@
             <PropertyRef Name="recu_A_ID" />
           </Key>
           <Property Name="recu_A_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_A_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="recu_A_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="recu_A_Date" Type="date" />
           <Property Name="recu_A_Temps" Type="time" Precision="7" />
           <Property Name="recu_T_ID" Type="numeric" Precision="18" Scale="0" />
@@ -989,7 +992,7 @@
             <PropertyRef Name="recu_T_ID" />
           </Key>
           <Property Name="recu_T_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_T_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="recu_T_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="recu_T_Type" Type="nvarchar" MaxLength="200" />
           <Property Name="recu_T_Status" Type="bit" />
           <Property Name="recu_T_Note" Type="nvarchar(max)" />
@@ -999,7 +1002,7 @@
             <PropertyRef Name="recu_V_ID" />
           </Key>
           <Property Name="recu_V_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_V_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="recu_V_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="recu_V_Date" Type="date" />
           <Property Name="recu_V_Temps" Type="time" Precision="7" />
           <Property Name="recu_T_ID" Type="numeric" Precision="18" Scale="0" />
@@ -1016,22 +1019,12 @@
           <Property Name="recu_V_Note" Type="nvarchar(max)" />
           <Property Name="fact_V_ID" Type="numeric" Precision="18" Scale="0" />
         </EntityType>
-        <EntityType Name="sysdiagrams">
-          <Key>
-            <PropertyRef Name="diagram_id" />
-          </Key>
-          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="principal_id" Type="int" Nullable="false" />
-          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="version" Type="int" />
-          <Property Name="definition" Type="varbinary(max)" />
-        </EntityType>
         <EntityType Name="Traitement">
           <Key>
             <PropertyRef Name="trait_ID" />
           </Key>
           <Property Name="trait_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="trait_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="trait_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="trait_Type" Type="nvarchar" MaxLength="150" />
           <Property Name="trait_Status" Type="int" />
           <Property Name="trait_Note" Type="nvarchar(max)" />
@@ -1041,7 +1034,7 @@
             <PropertyRef Name="unt_M_ID" />
           </Key>
           <Property Name="unt_M_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="unt_M_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="unt_M_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="unt_M_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="unt_M_Petit" Type="nvarchar(max)" />
           <Property Name="unt_M_Grand" Type="nvarchar(max)" />
@@ -1053,7 +1046,7 @@
             <PropertyRef Name="unt_T_ID" />
           </Key>
           <Property Name="unt_T_ID" Type="numeric" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="unt_T_Code" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="unt_T_Code" Type="nvarchar" MaxLength="100" />
           <Property Name="unt_T_Nom" Type="nvarchar" MaxLength="200" />
           <Property Name="unt_T_Type" Type="nvarchar(max)" />
           <Property Name="unt_T_Status" Type="bit" />
@@ -2565,7 +2558,6 @@
           <EntitySet Name="Recu_Achat" EntityType="Self.Recu_Achat" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Recu_Type" EntityType="Self.Recu_Type" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Recu_Vente" EntityType="Self.Recu_Vente" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Traitement" EntityType="Self.Traitement" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Unite_Mesure" EntityType="Self.Unite_Mesure" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Unite_Type" EntityType="Self.Unite_Type" Schema="dbo" store:Type="Tables" />
@@ -3060,7 +3052,7 @@
             <PropertyRef Name="ban_ID" />
           </Key>
           <Property Name="ban_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="ban_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="ban_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="ban_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="ban_Adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="ban_Tele" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3075,7 +3067,7 @@
             <PropertyRef Name="bon_D_ID" />
           </Key>
           <Property Name="bon_D_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_D_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="bon_D_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="bon_D_Date" Type="DateTime" Precision="0" />
           <Property Name="bon_D_Temps" Type="Time" Precision="7" />
           <Property Name="bon_D_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3091,7 +3083,7 @@
             <PropertyRef Name="prd_B_D_ID" />
           </Key>
           <Property Name="prd_B_D_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="prd_B_D_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="prd_B_D_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="prd_B_D_Date" Type="DateTime" Precision="0" />
           <Property Name="prd_B_D_Temps" Type="Time" Precision="7" />
           <Property Name="prd_B_D_Quantite" Type="Int32" />
@@ -3108,7 +3100,7 @@
             <PropertyRef Name="bon_E_ID" />
           </Key>
           <Property Name="bon_E_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_E_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="bon_E_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="bon_E_Date" Type="DateTime" Precision="0" />
           <Property Name="bon_E_Temps" Type="Time" Precision="7" />
           <Property Name="bon_E_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3126,7 +3118,7 @@
             <PropertyRef Name="prd_B_E_ID" />
           </Key>
           <Property Name="prd_B_E_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="prd_B_E_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="prd_B_E_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="prd_B_E_Date" Type="DateTime" Precision="0" />
           <Property Name="prd_B_E_Temps" Type="Time" Precision="7" />
           <Property Name="prd_B_E_Quantite" Type="Int32" />
@@ -3143,7 +3135,7 @@
             <PropertyRef Name="bon_S_ID" />
           </Key>
           <Property Name="bon_S_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_S_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="bon_S_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="bon_S_Date" Type="DateTime" Precision="0" />
           <Property Name="bon_S_Temps" Type="Time" Precision="7" />
           <Property Name="bon_S_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3160,7 +3152,7 @@
             <PropertyRef Name="prd_B_S_ID" />
           </Key>
           <Property Name="prd_B_S_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="prd_B_S_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="prd_B_S_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="prd_B_S_Date" Type="DateTime" Precision="0" />
           <Property Name="prd_B_S_Temps" Type="Time" Precision="7" />
           <Property Name="prd_B_S_Quantite" Type="Int32" />
@@ -3177,7 +3169,7 @@
             <PropertyRef Name="bon_T_ID" />
           </Key>
           <Property Name="bon_T_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_T_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="bon_T_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="bon_T_Type" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="bon_T_Status" Type="Boolean" />
           <Property Name="bon_T_Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3192,7 +3184,7 @@
             <PropertyRef Name="barn_ID" />
           </Key>
           <Property Name="barn_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="barn_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="barn_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="barn_Nom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="barn_Adresse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="barn_Tele" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
@@ -3218,7 +3210,7 @@
             <PropertyRef Name="chg_ID" />
           </Key>
           <Property Name="chg_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="chg_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="chg_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="chg_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="chg_Max_Valeur" Type="Decimal" Precision="18" Scale="3" />
           <Property Name="chg_Status" Type="Boolean" />
@@ -3232,7 +3224,7 @@
             <PropertyRef Name="chg_T_ID" />
           </Key>
           <Property Name="chg_T_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="chg_T_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="chg_T_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="chg_T_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="chg_T_Detail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="chg_T_Status" Type="Boolean" />
@@ -3244,7 +3236,7 @@
             <PropertyRef Name="clt_ID" />
           </Key>
           <Property Name="clt_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="clt_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="clt_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="clt_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="clt_Date" Type="DateTime" Precision="0" />
           <Property Name="clt_Nature" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3265,7 +3257,7 @@
             <PropertyRef Name="ban_C_ID" />
           </Key>
           <Property Name="ban_C_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="ban_C_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="ban_C_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="ban_C_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="ban_C_Date_Creation" Type="DateTime" Precision="0" />
           <Property Name="ban_C_D_Solde" Type="Decimal" Precision="18" Scale="2" />
@@ -3288,7 +3280,7 @@
             <PropertyRef Name="chg_C_ID" />
           </Key>
           <Property Name="chg_C_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="chg_C_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="chg_C_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="chg_C_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="chg_C_Date" Type="DateTime" Precision="0" />
           <Property Name="chg_C_Status" Type="Boolean" />
@@ -3301,7 +3293,7 @@
             <PropertyRef Name="clt_C_ID" />
           </Key>
           <Property Name="clt_C_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="clt_C_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="clt_C_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="clt_C_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="clt_C_Date" Type="DateTime" Precision="0" />
           <Property Name="clt_C_Limit_Montant" Type="Decimal" Precision="18" Scale="2" />
@@ -3317,7 +3309,7 @@
             <PropertyRef Name="empl_C_ID" />
           </Key>
           <Property Name="empl_C_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="empl_C_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="empl_C_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="empl_C_Date" Type="DateTime" Precision="0" />
           <Property Name="empl_C_Temps" Type="Time" Precision="7" />
           <Property Name="empl_C_Solde" Type="Decimal" Precision="18" Scale="3" />
@@ -3331,7 +3323,7 @@
             <PropertyRef Name="esp_C_ID" />
           </Key>
           <Property Name="esp_C_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="esp_C_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="esp_C_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="esp_C_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="esp_C_Date_Creation" Type="DateTime" Precision="0" />
           <Property Name="esp_C_D_Solde" Type="Decimal" Precision="18" Scale="2" />
@@ -3349,7 +3341,7 @@
             <PropertyRef Name="frns_C_ID" />
           </Key>
           <Property Name="frns_C_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="frns_C_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="frns_C_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="frns_C_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="frns_C_Date" Type="DateTime" Precision="0" />
           <Property Name="frns_C_Limit_Montant" Type="Decimal" Precision="18" Scale="2" />
@@ -3365,7 +3357,7 @@
             <PropertyRef Name="loc_C_ID" />
           </Key>
           <Property Name="loc_C_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="loc_C_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="loc_C_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="loc_C_Date_Creation" Type="DateTime" Precision="3" />
           <Property Name="loc_C_Solde" Type="Decimal" Precision="18" Scale="3" />
           <Property Name="loc_C_Min" Type="Decimal" Precision="18" Scale="3" />
@@ -3383,7 +3375,7 @@
             <PropertyRef Name="loc_C_T_ID" />
           </Key>
           <Property Name="loc_C_T_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="loc_C_T_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="loc_C_T_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="loc_C_T_Nom" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="loc_C_T_Type" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
           <Property Name="loc_C_T_Status" Type="Boolean" />
@@ -3395,7 +3387,7 @@
             <PropertyRef Name="dvs_ID" />
           </Key>
           <Property Name="dvs_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="dvs_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="dvs_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="dvs_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="dvs_Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="dvs_Nationalite" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3418,7 +3410,7 @@
             <PropertyRef Name="dvs_B_ID" />
           </Key>
           <Property Name="dvs_B_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="dvs_B_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="dvs_B_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="dvs_B_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="dvs_B_Status" Type="Boolean" />
           <Property Name="ban_ID" Type="Decimal" Precision="18" Scale="0" />
@@ -3431,7 +3423,7 @@
             <PropertyRef Name="empl_ID" />
           </Key>
           <Property Name="empl_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="empl_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="empl_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="empl_Nom" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
           <Property Name="empl_Prenom" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
           <Property Name="empl_Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3453,7 +3445,7 @@
             <PropertyRef Name="empl_S_ID" />
           </Key>
           <Property Name="empl_S_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="empl_S_Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="empl_S_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="empl_S_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="empl_S_Salaire" Type="Decimal" Precision="18" Scale="3" />
           <Property Name="empl_S_Remise" Type="Decimal" Precision="18" Scale="3" />
@@ -3469,15 +3461,18 @@
             <PropertyRef Name="entr_ID" />
           </Key>
           <Property Name="entr_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="entr_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="entr_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="entr_Nom" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
           <Property Name="entr_Adresse1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="entr_Adresse2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="entr_Adresse3" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="entr_Tele1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="entr_Tele2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="entr_Tele3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="entr_Fax" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="entr_Mobile1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="entr_Mobile2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="entr_Fixe1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="entr_fixe2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="entr_Fax1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="entr_Fax2" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="entr_Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="entr_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
           <Property Name="entr_Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="Branches" Relationship="Self.FK_Branche_Entreprise_Info" FromRole="Entreprise_Info" ToRole="Branche" />
         </EntityType>
@@ -3486,7 +3481,7 @@
             <PropertyRef Name="fact_A_ID" />
           </Key>
           <Property Name="fact_A_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_A_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_A_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_A_Temps" Type="Time" Precision="7" />
           <Property Name="fact_A_Ech_Date" Type="DateTime" Precision="3" />
@@ -3520,7 +3515,7 @@
             <PropertyRef Name="fact_A_B_ID" />
           </Key>
           <Property Name="fact_A_B_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_B_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_A_B_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_A_B_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_A_B_Temps" Type="Time" Precision="7" />
           <Property Name="fact_A_B_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3541,7 +3536,7 @@
             <PropertyRef Name="fact_A_P_ID" />
           </Key>
           <Property Name="fact_A_P_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_P_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_A_P_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_A_P_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_A_P_Temps" Type="Time" Precision="7" />
           <Property Name="fact_A_P_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3567,7 +3562,7 @@
             <PropertyRef Name="fact_A_P_R_ID" />
           </Key>
           <Property Name="fact_A_P_R_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_P_R_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_A_P_R_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_A_P_R_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_A_P_R_Temps" Type="Time" Precision="7" />
           <Property Name="fact_A_P_R_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3593,7 +3588,7 @@
             <PropertyRef Name="fact_A_R_ID" />
           </Key>
           <Property Name="fact_A_R_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_R_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_A_R_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_A_R_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_A_R_Temps" Type="Time" Precision="7" />
           <Property Name="fact_A_R_Ech_Date" Type="DateTime" Precision="3" />
@@ -3625,7 +3620,7 @@
             <PropertyRef Name="pay_ID" />
           </Key>
           <Property Name="pay_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="pay_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="pay_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="pay_Type" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="pay_Status" Type="Boolean" />
           <Property Name="pay_Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3639,7 +3634,7 @@
             <PropertyRef Name="fact_T_ID" />
           </Key>
           <Property Name="fact_T_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_T_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_T_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_T_Type" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="fact_T_Status" Type="Boolean" />
           <Property Name="fact_T_Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3653,7 +3648,7 @@
             <PropertyRef Name="fact_V_ID" />
           </Key>
           <Property Name="fact_V_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_V_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_V_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_V_Temps" Type="Time" Precision="7" />
           <Property Name="fact_V_Ech_Date" Type="DateTime" Precision="3" />
@@ -3687,7 +3682,7 @@
             <PropertyRef Name="fact_V_B_ID" />
           </Key>
           <Property Name="fact_V_B_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_B_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_V_B_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_V_B_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_V_B_Temps" Type="Time" Precision="7" />
           <Property Name="fact_V_B_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3708,7 +3703,7 @@
             <PropertyRef Name="fact_V_P_ID" />
           </Key>
           <Property Name="fact_V_P_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_P_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_V_P_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_V_P_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_V_P_Temps" Type="Time" Precision="7" />
           <Property Name="fact_V_P_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3734,7 +3729,7 @@
             <PropertyRef Name="fact_V_P_R_ID" />
           </Key>
           <Property Name="fact_V_P_R_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_P_R_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_V_P_R_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_V_P_R_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_V_P_R_Temps" Type="Time" Precision="7" />
           <Property Name="fact_V_P_R_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3760,7 +3755,7 @@
             <PropertyRef Name="fact_V_R_ID" />
           </Key>
           <Property Name="fact_V_R_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_R_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_V_R_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_V_R_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_V_R_Temps" Type="Time" Precision="7" />
           <Property Name="fact_V_R_Ech_Date" Type="DateTime" Precision="3" />
@@ -3792,7 +3787,7 @@
             <PropertyRef Name="frns_ID" />
           </Key>
           <Property Name="frns_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="frns_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="frns_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="frns_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="frns_Date" Type="DateTime" Precision="0" />
           <Property Name="frns_Nature" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3813,7 +3808,7 @@
             <PropertyRef Name="imp_ID" />
           </Key>
           <Property Name="imp_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="imp_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="imp_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="imp_Date" Type="DateTime" Precision="3" />
           <Property Name="imp_Nom" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
           <Property Name="imp_Montant" Type="Decimal" Precision="18" Scale="3" />
@@ -3827,7 +3822,7 @@
             <PropertyRef Name="mags_ID" />
           </Key>
           <Property Name="mags_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="mags_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="mags_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="mags_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="mags_Date" Type="DateTime" Precision="0" />
           <Property Name="mags_Emplacement" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3843,7 +3838,7 @@
             <PropertyRef Name="mgs_Branche_ID" />
           </Key>
           <Property Name="mgs_Branche_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="mgs_Branche_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="mgs_Branche_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="mgs_Branche_Date" Type="DateTime" Precision="3" />
           <Property Name="mgs_Branche_Status" Type="Boolean" />
           <Property Name="barn_ID" Type="Decimal" Precision="18" Scale="0" />
@@ -3858,7 +3853,7 @@
             <PropertyRef Name="cais_ID" />
           </Key>
           <Property Name="cais_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="cais_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="cais_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="cais_Date_Creation" Type="DateTime" Precision="0" />
           <Property Name="cais_D_Solde" Type="Decimal" Precision="18" Scale="2" />
           <Property Name="cais_Z_Solde" Type="Decimal" Precision="18" Scale="2" />
@@ -3876,7 +3871,7 @@
             <PropertyRef Name="bon_E_Mags_ID" />
           </Key>
           <Property Name="bon_E_Mags_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_E_Mags_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="bon_E_Mags_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="bon_E_Mags_Date" Type="DateTime" Precision="0" />
           <Property Name="bon_E_Mags_Temps" Type="Time" Precision="7" />
           <Property Name="bon_E_Mags_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3891,7 +3886,7 @@
             <PropertyRef Name="bon_S_Mags_ID" />
           </Key>
           <Property Name="bon_S_Mags_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="bon_S_Mags_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="bon_S_Mags_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="bon_S_Mags_Date" Type="DateTime" Precision="0" />
           <Property Name="bon_S_Mags_Temps" Type="Time" Precision="7" />
           <Property Name="bon_S_Mags_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -3905,7 +3900,7 @@
             <PropertyRef Name="cais_O_ID" />
           </Key>
           <Property Name="cais_O_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="cais_O_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="cais_O_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="cais_O_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="cais_O_Date" Type="DateTime" Precision="0" />
           <Property Name="cais_O_Temps" Type="Time" Precision="7" />
@@ -3926,7 +3921,7 @@
             <PropertyRef Name="fact_A_O_ID" />
           </Key>
           <Property Name="fact_A_O_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_O_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_A_O_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_A_O_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_A_O_Temps" Type="Time" Precision="7" />
           <Property Name="frns_ID" Type="Decimal" Precision="18" Scale="0" />
@@ -3949,7 +3944,7 @@
             <PropertyRef Name="fact_A_R_O_ID" />
           </Key>
           <Property Name="fact_A_R_O_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_A_R_O_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_A_R_O_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_A_R_O_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_A_R_O_Temps" Type="Time" Precision="7" />
           <Property Name="frns_ID" Type="Decimal" Precision="18" Scale="0" />
@@ -3972,7 +3967,7 @@
             <PropertyRef Name="fact_V_O_ID" />
           </Key>
           <Property Name="fact_V_O_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_O_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_V_O_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_V_O_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_V_O_Temps" Type="Time" Precision="7" />
           <Property Name="clt_ID" Type="Decimal" Precision="18" Scale="0" />
@@ -3995,7 +3990,7 @@
             <PropertyRef Name="fact_V_R_O_ID" />
           </Key>
           <Property Name="fact_V_R_O_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="fact_V_R_O_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="fact_V_R_O_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="fact_V_R_O_Date" Type="DateTime" Precision="0" />
           <Property Name="fact_V_R_O_Temps" Type="Time" Precision="7" />
           <Property Name="clt_ID" Type="Decimal" Precision="18" Scale="0" />
@@ -4018,7 +4013,7 @@
             <PropertyRef Name="imp_O_ID" />
           </Key>
           <Property Name="imp_O_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="imp_O_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="imp_O_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="imp_O_Date" Type="DateTime" Precision="0" />
           <Property Name="imp_O_Temps" Type="Time" Precision="7" />
           <Property Name="imp_O_Montant_tva" Type="Decimal" Precision="18" Scale="3" />
@@ -4034,7 +4029,7 @@
             <PropertyRef Name="recu_A_O_ID" />
           </Key>
           <Property Name="recu_A_O_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_A_O_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="recu_A_O_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="recu_A_O_Date" Type="DateTime" Precision="0" />
           <Property Name="recu_A_O_Temps" Type="Time" Precision="7" />
           <Property Name="recu_A_O_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -4056,7 +4051,7 @@
             <PropertyRef Name="recu_V_O_ID" />
           </Key>
           <Property Name="recu_V_O_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_V_O_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="recu_V_O_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="recu_V_O_Date" Type="DateTime" Precision="0" />
           <Property Name="recu_V_O_Temps" Type="Time" Precision="7" />
           <Property Name="recu_V_O_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -4078,7 +4073,7 @@
             <PropertyRef Name="prd_ID" />
           </Key>
           <Property Name="prd_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="prd_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="prd_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="prd_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="typ_ID" Type="Decimal" Precision="18" Scale="0" />
           <Property Name="prd_Nbr_Min" Type="Int32" />
@@ -4120,7 +4115,7 @@
             <PropertyRef Name="brdc_ID" />
           </Key>
           <Property Name="brdc_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="brdc_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="brdc_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="brdc_Numero" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
           <Property Name="brdc_Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="brdc_Status" Type="Boolean" />
@@ -4133,7 +4128,7 @@
             <PropertyRef Name="box_ID" />
           </Key>
           <Property Name="box_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="box_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="box_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="box_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="box_Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="box_Status" Type="Boolean" />
@@ -4145,7 +4140,7 @@
             <PropertyRef Name="catg_ID" />
           </Key>
           <Property Name="catg_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="catg_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="catg_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="catg_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="catg_Status" Type="Boolean" />
           <Property Name="catg_Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -4156,7 +4151,7 @@
             <PropertyRef Name="dtl_ID" />
           </Key>
           <Property Name="dtl_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="dtl_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="dtl_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="dtl_Pays_Orig" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="dtl_Date_Production" Type="DateTime" Precision="0" />
           <Property Name="dtl_Date_Expiration" Type="DateTime" Precision="0" />
@@ -4171,7 +4166,7 @@
             <PropertyRef Name="emp_ID" />
           </Key>
           <Property Name="emp_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="emp_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="emp_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="emp_Date" Type="DateTime" Precision="3" />
           <Property Name="emp_Place" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="emp_Case" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -4188,7 +4183,7 @@
             <PropertyRef Name="img_ID" />
           </Key>
           <Property Name="img_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="img_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="img_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="img_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="img_Emplacement" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="img_Status" Type="Boolean" />
@@ -4201,7 +4196,7 @@
             <PropertyRef Name="sub_ID" />
           </Key>
           <Property Name="sub_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="sub_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="sub_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="sub_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="sub_Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="sub_Status" Type="Boolean" />
@@ -4215,7 +4210,7 @@
             <PropertyRef Name="typ_ID" />
           </Key>
           <Property Name="typ_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="typ_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="typ_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="typ_Type" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="typ_Status" Type="Boolean" />
           <Property Name="typ_Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -4226,7 +4221,7 @@
             <PropertyRef Name="recu_A_ID" />
           </Key>
           <Property Name="recu_A_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_A_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="recu_A_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="recu_A_Date" Type="DateTime" Precision="0" />
           <Property Name="recu_A_Temps" Type="Time" Precision="7" />
           <Property Name="recu_T_ID" Type="Decimal" Precision="18" Scale="0" />
@@ -4254,7 +4249,7 @@
             <PropertyRef Name="recu_T_ID" />
           </Key>
           <Property Name="recu_T_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_T_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="recu_T_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="recu_T_Type" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="recu_T_Status" Type="Boolean" />
           <Property Name="recu_T_Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -4266,7 +4261,7 @@
             <PropertyRef Name="recu_V_ID" />
           </Key>
           <Property Name="recu_V_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="recu_V_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="recu_V_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="recu_V_Date" Type="DateTime" Precision="0" />
           <Property Name="recu_V_Temps" Type="Time" Precision="7" />
           <Property Name="recu_T_ID" Type="Decimal" Precision="18" Scale="0" />
@@ -4289,22 +4284,12 @@
           <NavigationProperty Name="Operation_Recu_Vente" Relationship="Self.FK_Operation_Recu_Vente_Recu_Vente" FromRole="Recu_Vente" ToRole="Operation_Recu_Vente" />
           <NavigationProperty Name="Recu_Type" Relationship="Self.FK_Recu_Vente_Recu_Type" FromRole="Recu_Vente" ToRole="Recu_Type" />
         </EntityType>
-        <EntityType Name="sysdiagram">
-          <Key>
-            <PropertyRef Name="diagram_id" />
-          </Key>
-          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="principal_id" Type="Int32" Nullable="false" />
-          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="version" Type="Int32" />
-          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
-        </EntityType>
         <EntityType Name="Traitement">
           <Key>
             <PropertyRef Name="trait_ID" />
           </Key>
           <Property Name="trait_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="trait_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="trait_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="trait_Type" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
           <Property Name="trait_Status" Type="Int32" />
           <Property Name="trait_Note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -4316,7 +4301,7 @@
             <PropertyRef Name="unt_M_ID" />
           </Key>
           <Property Name="unt_M_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="unt_M_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="unt_M_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="unt_M_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="unt_M_Petit" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="unt_M_Grand" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -4336,7 +4321,7 @@
             <PropertyRef Name="unt_T_ID" />
           </Key>
           <Property Name="unt_T_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
-          <Property Name="unt_T_Code" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="unt_T_Code" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="unt_T_Nom" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
           <Property Name="unt_T_Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="unt_T_Status" Type="Boolean" />
@@ -5855,7 +5840,6 @@
           <EntitySet Name="Recu_Achat" EntityType="Self.Recu_Achat" />
           <EntitySet Name="Recu_Type" EntityType="Self.Recu_Type" />
           <EntitySet Name="Recu_Vente" EntityType="Self.Recu_Vente" />
-          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
           <EntitySet Name="Traitements" EntityType="Self.Traitement" />
           <EntitySet Name="Unite_Mesure" EntityType="Self.Unite_Mesure" />
           <EntitySet Name="Unite_Type" EntityType="Self.Unite_Type" />
@@ -6711,11 +6695,14 @@
                 <ScalarProperty Name="entr_Nom" ColumnName="entr_Nom" />
                 <ScalarProperty Name="entr_Adresse1" ColumnName="entr_Adresse1" />
                 <ScalarProperty Name="entr_Adresse2" ColumnName="entr_Adresse2" />
-                <ScalarProperty Name="entr_Adresse3" ColumnName="entr_Adresse3" />
-                <ScalarProperty Name="entr_Tele1" ColumnName="entr_Tele1" />
-                <ScalarProperty Name="entr_Tele2" ColumnName="entr_Tele2" />
-                <ScalarProperty Name="entr_Tele3" ColumnName="entr_Tele3" />
-                <ScalarProperty Name="entr_Fax" ColumnName="entr_Fax" />
+                <ScalarProperty Name="entr_Mobile1" ColumnName="entr_Mobile1" />
+                <ScalarProperty Name="entr_Mobile2" ColumnName="entr_Mobile2" />
+                <ScalarProperty Name="entr_Fixe1" ColumnName="entr_Fixe1" />
+                <ScalarProperty Name="entr_fixe2" ColumnName="entr_fixe2" />
+                <ScalarProperty Name="entr_Fax1" ColumnName="entr_Fax1" />
+                <ScalarProperty Name="entr_Fax2" ColumnName="entr_Fax2" />
+                <ScalarProperty Name="entr_Email" ColumnName="entr_Email" />
+                <ScalarProperty Name="entr_Image" ColumnName="entr_Image" />
                 <ScalarProperty Name="entr_Note" ColumnName="entr_Note" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -7418,17 +7405,6 @@
                 <ScalarProperty Name="recu_V_Status" ColumnName="recu_V_Status" />
                 <ScalarProperty Name="recu_V_Note" ColumnName="recu_V_Note" />
                 <ScalarProperty Name="fact_V_ID" ColumnName="fact_V_ID" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="sysdiagrams">
-            <EntityTypeMapping TypeName="SalesSystemModel.sysdiagram">
-              <MappingFragment StoreEntitySet="sysdiagrams">
-                <ScalarProperty Name="name" ColumnName="name" />
-                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
-                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
-                <ScalarProperty Name="version" ColumnName="version" />
-                <ScalarProperty Name="definition" ColumnName="definition" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

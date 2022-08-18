@@ -24,7 +24,7 @@ namespace SalesDB.DB
         }
     
         public decimal pay_ID { get; set; }
-        public Nullable<decimal> pay_Code { get; set; }
+        public string pay_Code { get; set; }
         public string pay_Type { get; set; }
         public Nullable<bool> pay_Status { get; set; }
         public string pay_Note { get; set; }

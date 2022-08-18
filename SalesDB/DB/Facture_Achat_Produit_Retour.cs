@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Facture_Achat_Produit_Retour
     {
         public decimal fact_A_P_R_ID { get; set; }
-        public Nullable<decimal> fact_A_P_R_Code { get; set; }
+        public string fact_A_P_R_Code { get; set; }
         public Nullable<System.DateTime> fact_A_P_R_Date { get; set; }
         public Nullable<System.TimeSpan> fact_A_P_R_Temps { get; set; }
         public string fact_A_P_R_Text { get; set; }

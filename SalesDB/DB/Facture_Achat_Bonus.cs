@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Facture_Achat_Bonus
     {
         public decimal fact_A_B_ID { get; set; }
-        public Nullable<decimal> fact_A_B_Code { get; set; }
+        public string fact_A_B_Code { get; set; }
         public Nullable<System.DateTime> fact_A_B_Date { get; set; }
         public Nullable<System.TimeSpan> fact_A_B_Temps { get; set; }
         public string fact_A_B_Text { get; set; }

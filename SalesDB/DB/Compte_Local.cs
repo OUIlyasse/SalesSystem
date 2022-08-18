@@ -22,7 +22,7 @@ namespace SalesDB.DB
         }
     
         public decimal loc_C_ID { get; set; }
-        public Nullable<decimal> loc_C_Code { get; set; }
+        public string loc_C_Code { get; set; }
         public Nullable<System.DateTime> loc_C_Date_Creation { get; set; }
         public Nullable<decimal> loc_C_Solde { get; set; }
         public Nullable<decimal> loc_C_Min { get; set; }

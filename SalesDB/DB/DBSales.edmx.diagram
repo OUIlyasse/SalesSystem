@@ -4,12 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="1f5e6544a8324ba0973258197b565d0c" Name="Diagram1">
-        <EntityTypeShape EntityType="SalesSystemModel.Banque" Width="1.5" PointX="3" PointY="75.875" IsExpanded="true" />
+      <Diagram DiagramId="30070f036ed84db0b5fbb5a0ae35d8bb" Name="Diagram1">
+        <EntityTypeShape EntityType="SalesSystemModel.Banque" Width="1.5" PointX="3" PointY="97.875" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Destruction" Width="1.5" PointX="3" PointY="30.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Destruction_Produit" Width="1.5" PointX="5.25" PointY="37.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Entree" Width="1.5" PointX="6" PointY="2.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Bon_Entree_Produit" Width="1.5" PointX="8.625" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Bon_Entree_Produit" Width="1.5" PointX="8.25" PointY="37.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Sortie" Width="1.5" PointX="3" PointY="23.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Sortie_Produit" Width="1.5" PointX="5.25" PointY="32.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Bon_Type" Width="1.5" PointX="0.75" PointY="17.625" IsExpanded="true" />
@@ -23,18 +23,18 @@
         <EntityTypeShape EntityType="SalesSystemModel.Compte_Employee" Width="1.5" PointX="5.25" PointY="85.25" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Compte_Espece" Width="1.5" PointX="5.25" PointY="92.625" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Compte_Fournisseur" Width="1.5" PointX="6" PointY="7.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Compte_Local" Width="1.5" PointX="11.25" PointY="24.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Compte_Local_Type" Width="1.5" PointX="9" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Compte_Local" Width="1.5" PointX="11.25" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Compte_Local_Type" Width="1.5" PointX="9" PointY="47.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Devise" Width="1.5" PointX="3" PointY="18" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Devise_Banque" Width="1.5" PointX="5.25" PointY="19" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Employee" Width="1.5" PointX="3" PointY="86.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Employee_Salaire" Width="1.5" PointX="5.25" PointY="88.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Entreprise_Info" Width="1.5" PointX="1.5" PointY="63.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Entreprise_Info" Width="1.5" PointX="1.5" PointY="64.125" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Facture_Achat" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Facture_Achat_Bonus" Width="1.5" PointX="5.25" PointY="58.625" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Facture_Achat_Produit" Width="1.5" PointX="8.25" PointY="58.125" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Facture_Achat_Produit_Retour" Width="1.5" PointX="5.25" PointY="64.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Facture_Achat_Retour" Width="1.5" PointX="3" PointY="68.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Facture_Achat_Retour" Width="1.5" PointX="3" PointY="69.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Facture_Paiement_Type" Width="1.5" PointX="1.5" PointY="8.25" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Facture_Type" Width="1.5" PointX="1.5" PointY="52.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Facture_Vente" Width="1.5" PointX="0.75" PointY="23.625" IsExpanded="true" />
@@ -44,16 +44,16 @@
         <EntityTypeShape EntityType="SalesSystemModel.Facture_Vente_Retour" Width="1.5" PointX="6" PointY="74.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Fournisseur" Width="1.5" PointX="1.5" PointY="2.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Impot" Width="1.5" PointX="10.75" PointY="8.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Magasin" Width="1.5" PointX="0.75" PointY="68.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Magasin" Width="1.5" PointX="0.75" PointY="69.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Magasin_Branche" Width="1.5" PointX="3" PointY="59.625" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Main_Caisse" Width="1.5" PointX="3" PointY="92.625" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Operation_Bon_Entree_Magasin" Width="1.5" PointX="8.25" PointY="10" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Operation_Bon_Sortie_Magasin" Width="1.5" PointX="3" PointY="97.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Operation_Bon_Sortie_Magasin" Width="1.5" PointX="3" PointY="76.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Operation_Caisse" Width="1.5" PointX="13.5" PointY="73.5" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Operation_Facture_Achat" Width="1.5" PointX="6" PointY="27" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Operation_Facture_Achat_Retour" Width="1.5" PointX="8.25" PointY="31.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Operation_Facture_Vente" Width="1.5" PointX="11.25" PointY="28.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Operation_Facture_Vente_Retour" Width="1.5" PointX="8.25" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Operation_Facture_Achat_Retour" Width="1.5" PointX="8.25" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Operation_Facture_Vente" Width="1.5" PointX="8.25" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Operation_Facture_Vente_Retour" Width="1.5" PointX="11.25" PointY="41.25" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Operation_Impot" Width="1.5" PointX="13" PointY="8.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Operation_Recu_Achat" Width="1.5" PointX="15.75" PointY="37.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Operation_Recu_Vente" Width="1.5" PointX="18.75" PointY="41.25" IsExpanded="true" />
@@ -67,9 +67,8 @@
         <EntityTypeShape EntityType="SalesSystemModel.Produit_Section" Width="1.5" PointX="0.75" PointY="41.75" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Produit_Type" Width="1.5" PointX="0.75" PointY="49.25" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Recu_Achat" Width="1.5" PointX="13.5" PointY="45.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.Recu_Type" Width="1.5" PointX="11.25" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SalesSystemModel.Recu_Type" Width="1.5" PointX="11.25" PointY="51.375" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Recu_Vente" Width="1.5" PointX="13.5" PointY="57.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="SalesSystemModel.sysdiagram" Width="1.5" PointX="8.75" PointY="14.25" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Traitement" Width="1.5" PointX="3.75" PointY="11" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Unite_Mesure" Width="1.5" PointX="0.75" PointY="37.125" IsExpanded="true" />
         <EntityTypeShape EntityType="SalesSystemModel.Unite_Type" Width="1.5" PointX="3" PointY="80.375" IsExpanded="true" />

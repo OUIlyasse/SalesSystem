@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Compte_Charge
     {
         public decimal chg_C_ID { get; set; }
-        public Nullable<decimal> chg_C_Code { get; set; }
+        public string chg_C_Code { get; set; }
         public string chg_C_Nom { get; set; }
         public Nullable<System.DateTime> chg_C_Date { get; set; }
         public Nullable<bool> chg_C_Status { get; set; }

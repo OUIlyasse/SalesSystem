@@ -21,7 +21,7 @@ namespace SalesDB.DB
         }
     
         public decimal mgs_Branche_ID { get; set; }
-        public Nullable<decimal> mgs_Branche_Code { get; set; }
+        public string mgs_Branche_Code { get; set; }
         public Nullable<System.DateTime> mgs_Branche_Date { get; set; }
         public Nullable<bool> mgs_Branche_Status { get; set; }
         public Nullable<decimal> barn_ID { get; set; }

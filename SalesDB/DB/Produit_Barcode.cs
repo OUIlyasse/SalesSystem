@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Produit_Barcode
     {
         public decimal brdc_ID { get; set; }
-        public Nullable<decimal> brdc_Code { get; set; }
+        public string brdc_Code { get; set; }
         public string brdc_Numero { get; set; }
         public string brdc_Type { get; set; }
         public Nullable<bool> brdc_Status { get; set; }

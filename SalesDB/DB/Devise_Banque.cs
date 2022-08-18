@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Devise_Banque
     {
         public decimal dvs_B_ID { get; set; }
-        public Nullable<decimal> dvs_B_Code { get; set; }
+        public string dvs_B_Code { get; set; }
         public string dvs_B_Nom { get; set; }
         public Nullable<bool> dvs_B_Status { get; set; }
         public Nullable<decimal> ban_ID { get; set; }

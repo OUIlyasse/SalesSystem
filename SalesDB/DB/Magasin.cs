@@ -21,7 +21,7 @@ namespace SalesDB.DB
         }
     
         public decimal mags_ID { get; set; }
-        public Nullable<decimal> mags_Code { get; set; }
+        public string mags_Code { get; set; }
         public string mags_Nom { get; set; }
         public Nullable<System.DateTime> mags_Date { get; set; }
         public string mags_Emplacement { get; set; }

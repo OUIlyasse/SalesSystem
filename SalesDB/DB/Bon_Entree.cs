@@ -22,7 +22,7 @@ namespace SalesDB.DB
         }
     
         public decimal bon_E_ID { get; set; }
-        public Nullable<decimal> bon_E_Code { get; set; }
+        public string bon_E_Code { get; set; }
         public Nullable<System.DateTime> bon_E_Date { get; set; }
         public Nullable<System.TimeSpan> bon_E_Temps { get; set; }
         public string bon_E_Text { get; set; }

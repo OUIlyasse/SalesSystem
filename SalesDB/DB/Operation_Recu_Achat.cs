@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Operation_Recu_Achat
     {
         public decimal recu_A_O_ID { get; set; }
-        public Nullable<decimal> recu_A_O_Code { get; set; }
+        public string recu_A_O_Code { get; set; }
         public Nullable<System.DateTime> recu_A_O_Date { get; set; }
         public Nullable<System.TimeSpan> recu_A_O_Temps { get; set; }
         public string recu_A_O_Text { get; set; }

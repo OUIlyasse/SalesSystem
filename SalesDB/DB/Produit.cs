@@ -33,7 +33,7 @@ namespace SalesDB.DB
         }
     
         public decimal prd_ID { get; set; }
-        public Nullable<decimal> prd_Code { get; set; }
+        public string prd_Code { get; set; }
         public string prd_Nom { get; set; }
         public Nullable<decimal> typ_ID { get; set; }
         public Nullable<int> prd_Nbr_Min { get; set; }

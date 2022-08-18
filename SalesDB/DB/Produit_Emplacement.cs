@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Produit_Emplacement
     {
         public decimal emp_ID { get; set; }
-        public Nullable<decimal> emp_Code { get; set; }
+        public string emp_Code { get; set; }
         public Nullable<System.DateTime> emp_Date { get; set; }
         public string emp_Place { get; set; }
         public string emp_Case { get; set; }

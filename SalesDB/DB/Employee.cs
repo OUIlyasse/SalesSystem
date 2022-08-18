@@ -22,7 +22,7 @@ namespace SalesDB.DB
         }
     
         public decimal empl_ID { get; set; }
-        public Nullable<decimal> empl_Code { get; set; }
+        public string empl_Code { get; set; }
         public string empl_Nom { get; set; }
         public string empl_Prenom { get; set; }
         public string empl_Type { get; set; }

@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Operation_Caisse
     {
         public decimal cais_O_ID { get; set; }
-        public Nullable<decimal> cais_O_Code { get; set; }
+        public string cais_O_Code { get; set; }
         public string cais_O_Nom { get; set; }
         public Nullable<System.DateTime> cais_O_Date { get; set; }
         public Nullable<System.TimeSpan> cais_O_Temps { get; set; }

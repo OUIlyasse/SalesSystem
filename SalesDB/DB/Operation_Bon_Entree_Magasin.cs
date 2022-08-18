@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Operation_Bon_Entree_Magasin
     {
         public decimal bon_E_Mags_ID { get; set; }
-        public Nullable<decimal> bon_E_Mags_Code { get; set; }
+        public string bon_E_Mags_Code { get; set; }
         public Nullable<System.DateTime> bon_E_Mags_Date { get; set; }
         public Nullable<System.TimeSpan> bon_E_Mags_Temps { get; set; }
         public string bon_E_Mags_Text { get; set; }

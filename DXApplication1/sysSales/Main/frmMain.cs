@@ -25,12 +25,6 @@ namespace sysSales.Main
             ShowTime();
         }
 
-        private void btnNewForm_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-            Ifrm f = new Ifrm();
-            //OpenForm(this, f, mdiManager);
-        }
-
         private void timerTimes_Tick(object sender, EventArgs e)
         {
             txtTime.Caption = GetDateTime().ToString("T");

@@ -21,7 +21,7 @@ namespace SalesDB.DB
         }
     
         public decimal bon_S_ID { get; set; }
-        public Nullable<decimal> bon_S_Code { get; set; }
+        public string bon_S_Code { get; set; }
         public Nullable<System.DateTime> bon_S_Date { get; set; }
         public Nullable<System.TimeSpan> bon_S_Temps { get; set; }
         public string bon_S_Text { get; set; }

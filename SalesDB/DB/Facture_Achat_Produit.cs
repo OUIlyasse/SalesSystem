@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Facture_Achat_Produit
     {
         public decimal fact_A_P_ID { get; set; }
-        public Nullable<decimal> fact_A_P_Code { get; set; }
+        public string fact_A_P_Code { get; set; }
         public Nullable<System.DateTime> fact_A_P_Date { get; set; }
         public Nullable<System.TimeSpan> fact_A_P_Temps { get; set; }
         public string fact_A_P_Text { get; set; }

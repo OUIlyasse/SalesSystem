@@ -23,7 +23,7 @@ namespace SalesDB.DB
         }
     
         public decimal cais_ID { get; set; }
-        public Nullable<decimal> cais_Code { get; set; }
+        public string cais_Code { get; set; }
         public Nullable<System.DateTime> cais_Date_Creation { get; set; }
         public Nullable<decimal> cais_D_Solde { get; set; }
         public Nullable<decimal> cais_Z_Solde { get; set; }

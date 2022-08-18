@@ -23,7 +23,7 @@ namespace SalesDB.DB
         }
     
         public decimal esp_C_ID { get; set; }
-        public Nullable<decimal> esp_C_Code { get; set; }
+        public string esp_C_Code { get; set; }
         public string esp_C_Nom { get; set; }
         public Nullable<System.DateTime> esp_C_Date_Creation { get; set; }
         public Nullable<decimal> esp_C_D_Solde { get; set; }

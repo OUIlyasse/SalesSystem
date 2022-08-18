@@ -21,7 +21,7 @@ namespace SalesDB.DB
         }
     
         public decimal recu_V_ID { get; set; }
-        public Nullable<decimal> recu_V_Code { get; set; }
+        public string recu_V_Code { get; set; }
         public Nullable<System.DateTime> recu_V_Date { get; set; }
         public Nullable<System.TimeSpan> recu_V_Temps { get; set; }
         public Nullable<decimal> recu_T_ID { get; set; }

@@ -57,8 +57,10 @@
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.btnEditInvoices = new DevExpress.XtraBars.BarButtonItem();
             this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
-            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
+            this.txtUser = new DevExpress.XtraBars.BarHeaderItem();
+            this.btnShowCalendar = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -83,10 +85,6 @@
             this.navBarItem5 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarItem6 = new DevExpress.XtraNavBar.NavBarItem();
             this.mdiManager = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
-            this.txtUser = new DevExpress.XtraBars.BarHeaderItem();
-            this.btnShowCalendar = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemDateEdit1.CalendarTimeProperties)).BeginInit();
@@ -135,7 +133,6 @@
             this.ribbon.Name = "ribbon";
             this.ribbon.PageHeaderItemLinks.Add(this.barSubItem1);
             this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.ribbonPage1,
             this.ribbonPage2,
             this.ribbonPage3,
             this.ribbonPage4,
@@ -225,7 +222,6 @@
             resources.ApplyResources(this.btnNewForm, "btnNewForm");
             this.btnNewForm.Id = 8;
             this.btnNewForm.Name = "btnNewForm";
-            this.btnNewForm.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnNewForm_ItemClick);
             // 
             // dtDate
             // 
@@ -362,18 +358,35 @@
             this.barSubItem1.Name = "barSubItem1";
             this.barSubItem1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             // 
-            // ribbonPage1
+            // barButtonItem8
             // 
-            this.ribbonPage1.Appearance.Options.UseFont = true;
-            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup1});
-            this.ribbonPage1.Name = "ribbonPage1";
-            resources.ApplyResources(this.ribbonPage1, "ribbonPage1");
+            resources.ApplyResources(this.barButtonItem8, "barButtonItem8");
+            this.barButtonItem8.Id = 25;
+            this.barButtonItem8.Name = "barButtonItem8";
             // 
-            // ribbonPageGroup1
+            // barButtonItem7
             // 
-            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
-            resources.ApplyResources(this.ribbonPageGroup1, "ribbonPageGroup1");
+            resources.ApplyResources(this.barButtonItem7, "barButtonItem7");
+            this.barButtonItem7.Id = 24;
+            this.barButtonItem7.Name = "barButtonItem7";
+            // 
+            // txtUser
+            // 
+            this.txtUser.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("txtUser.Appearance.Font")));
+            this.txtUser.Appearance.Options.UseFont = true;
+            resources.ApplyResources(this.txtUser, "txtUser");
+            this.txtUser.Id = 26;
+            this.txtUser.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("txtUser.ImageOptions.Image")));
+            this.txtUser.Name = "txtUser";
+            this.txtUser.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            // 
+            // btnShowCalendar
+            // 
+            this.btnShowCalendar.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
+            this.btnShowCalendar.Id = 27;
+            this.btnShowCalendar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnShowCalendar.ImageOptions.Image")));
+            this.btnShowCalendar.Name = "btnShowCalendar";
+            resources.ApplyResources(this.btnShowCalendar, "btnShowCalendar");
             // 
             // ribbonPage2
             // 
@@ -545,36 +558,6 @@
             this.mdiManager.ClosePageButtonShowMode = DevExpress.XtraTab.ClosePageButtonShowMode.InActiveTabPageHeader;
             this.mdiManager.MdiParent = this;
             // 
-            // barButtonItem7
-            // 
-            resources.ApplyResources(this.barButtonItem7, "barButtonItem7");
-            this.barButtonItem7.Id = 24;
-            this.barButtonItem7.Name = "barButtonItem7";
-            // 
-            // barButtonItem8
-            // 
-            resources.ApplyResources(this.barButtonItem8, "barButtonItem8");
-            this.barButtonItem8.Id = 25;
-            this.barButtonItem8.Name = "barButtonItem8";
-            // 
-            // txtUser
-            // 
-            this.txtUser.Appearance.Font = ((System.Drawing.Font)(resources.GetObject("barHeaderItem2.Appearance.Font")));
-            this.txtUser.Appearance.Options.UseFont = true;
-            resources.ApplyResources(this.txtUser, "txtUser");
-            this.txtUser.Id = 26;
-            this.txtUser.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barHeaderItem2.ImageOptions.Image")));
-            this.txtUser.Name = "txtUser";
-            this.txtUser.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            // 
-            // btnShowCalendar
-            // 
-            this.btnShowCalendar.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
-            this.btnShowCalendar.Id = 27;
-            this.btnShowCalendar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem10.ImageOptions.Image")));
-            this.btnShowCalendar.Name = "btnShowCalendar";
-            resources.ApplyResources(this.btnShowCalendar, "btnShowCalendar");
-            // 
             // frmMain
             // 
             this.Appearance.Options.UseFont = true;
@@ -606,8 +589,6 @@
         #endregion
 
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbon;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
         private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
         private DevExpress.XtraBars.BarHeaderItem barHeaderItem1;
         private DevExpress.XtraBars.BarStaticItem barStaticItem1;

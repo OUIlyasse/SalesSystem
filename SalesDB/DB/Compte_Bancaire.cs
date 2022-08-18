@@ -23,7 +23,7 @@ namespace SalesDB.DB
         }
     
         public decimal ban_C_ID { get; set; }
-        public Nullable<decimal> ban_C_Code { get; set; }
+        public string ban_C_Code { get; set; }
         public string ban_C_Nom { get; set; }
         public Nullable<System.DateTime> ban_C_Date_Creation { get; set; }
         public Nullable<decimal> ban_C_D_Solde { get; set; }

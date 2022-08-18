@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Produit_Detail
     {
         public decimal dtl_ID { get; set; }
-        public Nullable<decimal> dtl_Code { get; set; }
+        public string dtl_Code { get; set; }
         public string dtl_Pays_Orig { get; set; }
         public Nullable<System.DateTime> dtl_Date_Production { get; set; }
         public Nullable<System.DateTime> dtl_Date_Expiration { get; set; }

@@ -28,7 +28,7 @@ namespace SalesDB.DB
         }
     
         public decimal dvs_ID { get; set; }
-        public Nullable<decimal> dvs_Code { get; set; }
+        public string dvs_Code { get; set; }
         public string dvs_Nom { get; set; }
         public string dvs_Type { get; set; }
         public string dvs_Nationalite { get; set; }

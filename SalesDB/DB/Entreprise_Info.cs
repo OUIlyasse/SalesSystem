@@ -21,15 +21,18 @@ namespace SalesDB.DB
         }
     
         public decimal entr_ID { get; set; }
-        public Nullable<decimal> entr_Code { get; set; }
+        public string entr_Code { get; set; }
         public string entr_Nom { get; set; }
         public string entr_Adresse1 { get; set; }
         public string entr_Adresse2 { get; set; }
-        public string entr_Adresse3 { get; set; }
-        public string entr_Tele1 { get; set; }
-        public string entr_Tele2 { get; set; }
-        public string entr_Tele3 { get; set; }
-        public string entr_Fax { get; set; }
+        public string entr_Mobile1 { get; set; }
+        public string entr_Mobile2 { get; set; }
+        public string entr_Fixe1 { get; set; }
+        public string entr_fixe2 { get; set; }
+        public string entr_Fax1 { get; set; }
+        public string entr_Fax2 { get; set; }
+        public string entr_Email { get; set; }
+        public byte[] entr_Image { get; set; }
         public string entr_Note { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

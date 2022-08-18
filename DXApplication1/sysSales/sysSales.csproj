@@ -174,7 +174,9 @@
       <Name>Tools</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\database-connect-32.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\software_32.png" />
   </ItemGroup>
@@ -188,13 +190,10 @@
     <None Include="Resources\Drive_Backup_32.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\database-connect-32.png" />
+    <None Include="Resources\invoice_32.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Notepad-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\invoice_32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

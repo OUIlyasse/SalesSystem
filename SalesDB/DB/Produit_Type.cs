@@ -21,7 +21,7 @@ namespace SalesDB.DB
         }
     
         public decimal typ_ID { get; set; }
-        public Nullable<decimal> typ_Code { get; set; }
+        public string typ_Code { get; set; }
         public string typ_Type { get; set; }
         public Nullable<bool> typ_Status { get; set; }
         public string typ_Note { get; set; }

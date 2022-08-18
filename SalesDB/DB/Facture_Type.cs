@@ -24,7 +24,7 @@ namespace SalesDB.DB
         }
     
         public decimal fact_T_ID { get; set; }
-        public Nullable<decimal> fact_T_Code { get; set; }
+        public string fact_T_Code { get; set; }
         public string fact_T_Type { get; set; }
         public Nullable<bool> fact_T_Status { get; set; }
         public string fact_T_Note { get; set; }

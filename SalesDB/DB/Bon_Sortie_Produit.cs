@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Bon_Sortie_Produit
     {
         public decimal prd_B_S_ID { get; set; }
-        public Nullable<decimal> prd_B_S_Code { get; set; }
+        public string prd_B_S_Code { get; set; }
         public Nullable<System.DateTime> prd_B_S_Date { get; set; }
         public Nullable<System.TimeSpan> prd_B_S_Temps { get; set; }
         public Nullable<int> prd_B_S_Quantite { get; set; }

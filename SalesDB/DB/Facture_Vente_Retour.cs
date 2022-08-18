@@ -22,7 +22,7 @@ namespace SalesDB.DB
         }
     
         public decimal fact_V_R_ID { get; set; }
-        public Nullable<decimal> fact_V_R_Code { get; set; }
+        public string fact_V_R_Code { get; set; }
         public Nullable<System.DateTime> fact_V_R_Date { get; set; }
         public Nullable<System.TimeSpan> fact_V_R_Temps { get; set; }
         public Nullable<System.DateTime> fact_V_R_Ech_Date { get; set; }

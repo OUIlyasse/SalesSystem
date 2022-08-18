@@ -30,7 +30,7 @@ namespace SalesDB.DB
         }
     
         public decimal barn_ID { get; set; }
-        public Nullable<decimal> barn_Code { get; set; }
+        public string barn_Code { get; set; }
         public string barn_Nom { get; set; }
         public string barn_Adresse { get; set; }
         public string barn_Tele { get; set; }

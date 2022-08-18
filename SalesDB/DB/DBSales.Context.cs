@@ -89,7 +89,6 @@ namespace SalesDB.DB
         public virtual DbSet<Recu_Achat> Recu_Achat { get; set; }
         public virtual DbSet<Recu_Type> Recu_Type { get; set; }
         public virtual DbSet<Recu_Vente> Recu_Vente { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<Traitement> Traitements { get; set; }
         public virtual DbSet<Unite_Mesure> Unite_Mesure { get; set; }
         public virtual DbSet<Unite_Type> Unite_Type { get; set; }

@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Compte_Fournisseur
     {
         public decimal frns_C_ID { get; set; }
-        public Nullable<decimal> frns_C_Code { get; set; }
+        public string frns_C_Code { get; set; }
         public string frns_C_Nom { get; set; }
         public Nullable<System.DateTime> frns_C_Date { get; set; }
         public Nullable<decimal> frns_C_Limit_Montant { get; set; }

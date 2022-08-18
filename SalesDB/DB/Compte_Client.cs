@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Compte_Client
     {
         public decimal clt_C_ID { get; set; }
-        public Nullable<decimal> clt_C_Code { get; set; }
+        public string clt_C_Code { get; set; }
         public string clt_C_Nom { get; set; }
         public Nullable<System.DateTime> clt_C_Date { get; set; }
         public Nullable<decimal> clt_C_Limit_Montant { get; set; }

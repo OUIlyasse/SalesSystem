@@ -15,7 +15,7 @@ namespace SalesDB.DB
     public partial class Bon_Destruction_Produit
     {
         public decimal prd_B_D_ID { get; set; }
-        public Nullable<decimal> prd_B_D_Code { get; set; }
+        public string prd_B_D_Code { get; set; }
         public Nullable<System.DateTime> prd_B_D_Date { get; set; }
         public Nullable<System.TimeSpan> prd_B_D_Temps { get; set; }
         public Nullable<int> prd_B_D_Quantite { get; set; }

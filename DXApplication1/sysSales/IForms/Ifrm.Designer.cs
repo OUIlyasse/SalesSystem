@@ -94,6 +94,7 @@
             toolTipItem1.Text = "New";
             superToolTip1.Items.Add(toolTipItem1);
             this.btnNew.SuperTip = superToolTip1;
+            this.btnNew.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnNew_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -104,6 +105,7 @@
             toolTipItem2.Text = "Add";
             superToolTip2.Items.Add(toolTipItem2);
             this.barButtonItem2.SuperTip = superToolTip2;
+            this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
             // 
             // barButtonItem3
             // 
@@ -114,6 +116,7 @@
             toolTipItem3.Text = "Update";
             superToolTip3.Items.Add(toolTipItem3);
             this.barButtonItem3.SuperTip = superToolTip3;
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barButtonItem4
             // 
@@ -124,6 +127,7 @@
             toolTipItem4.Text = "Delete";
             superToolTip4.Items.Add(toolTipItem4);
             this.barButtonItem4.SuperTip = superToolTip4;
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
             // barDockControlTop
             // 
